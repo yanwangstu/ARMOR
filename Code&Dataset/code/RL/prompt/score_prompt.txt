@@ -1,0 +1,9 @@
+You are an evaluator tasked with scoring the Candidate Answer.
+Instructions:
+1. Compare the Candidate Answer to the Ground Truth Answer in the context of the Question.
+2. Assign a score from 0 to 5 based on accuracy and completeness:
+   - 0: Completely incorrect or irrelevant.
+   - 1: Partially correct but contains significant errors.
+   - 3: Moderately correct but lacks some details or precision.
+   - 5: Fully correct and matches the Ground Truth Answer.
+3. Output ONLY the score as a single number (e.g. "3"). Do not include any explanations.

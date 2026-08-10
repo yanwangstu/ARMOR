@@ -1,0 +1,2637 @@
+[
+  {
+    "id": "17345_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      17345
+    ],
+    "main_question": "Until the 18th Century, on what day was the Annunciation traditionally celebrated, in the country of citizenship of the director of Battle of the Damned?",
+    "main_answer": "New Year's Day",
+    "main_answer_aliases": [
+      "New Year",
+      "January 1"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the country of citizenship relevant to the main question, I first need to identify the director of *Battle of the Damned*.",
+        "sub_question": "Who directed Battle of the Damned?",
+        "retrieval": [],
+        "doc": "Battle of the Damned is a 2013 American science fiction film written, produced and directed by Christopher Hatton. The film stars Dolph Lundgren, Melanie Zanetti, Matt Doran and David Field. Following a deadly viral outbreak, private soldier Max Gatling (Lundgren) leads a handful of survivors and a team of robots in a fight against an army of the dead.",
+        "doc_type": "golden",
+        "sub_answer": "Christopher Hatton"
+      },
+      {
+        "think": "Now that I know the director is Christopher Hatton, the next step is to find out his country of citizenship to narrow down the cultural context for the Annunciation celebration.",
+        "sub_question": "What is Christopher Hatton's country of citizenship?",
+        "retrieval": [],
+        "doc": "Sir Christopher Hatton KG (1540 – 20 November 1591) was an English politician, Lord Chancellor of England and a favourite of Elizabeth I of England.",
+        "doc_type": "golden",
+        "sub_answer": "England"
+      },
+      {
+        "think": "With the director's country of citizenship identified as England, I can now focus on the traditional day of the Annunciation celebration in England until the 18th Century.",
+        "sub_question": "On what day was the Annunciation tradtionally celebrated in England until the 18th century?",
+        "retrieval": [],
+        "doc": "Mary's special position within God's purpose of salvation as \"God-bearer\" (Theotokos) is recognised in a number of ways by some Anglican Christians. All the member churches of the Anglican Communion affirm in the historic creeds that Jesus was born of the Virgin Mary, and celebrates the feast days of the Presentation of Christ in the Temple. This feast is called in older prayer books the Purification of the Blessed Virgin Mary on February 2. The Annunciation of our Lord to the Blessed Virgin on March 25 was from before the time of Bede until the 18th century New Year's Day in England. The Annunciation is called the \"Annunciation of our Lady\" in the 1662 Book of Common Prayer. Anglicans also celebrate in the Visitation of the Blessed Virgin on 31 May, though in some provinces the traditional date of July 2 is kept. The feast of the St. Mary the Virgin is observed on the traditional day of the Assumption, August 15. The Nativity of the Blessed Virgin is kept on September 8.",
+        "doc_type": "golden",
+        "sub_answer": "New Year's Day"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 0
+    }
+  },
+  {
+    "id": "1002_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1002
+    ],
+    "main_question": "In what county is the city where Harris W. Fawell was born?",
+    "main_answer": "DuPage County",
+    "main_answer_aliases": [
+      "DuPage County, Illinois"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the county of Harris W. Fawell's birthplace, I first need to identify the city where he was born.",
+        "sub_question": "Where was Harris W. Fawell born in?",
+        "retrieval": [],
+        "doc": "Fawell is a graduate of West Chicago High School. He attended North Central College of Naperville 1947–1949 and received his LL.B from Chicago-Kent College of Law. Fawell was admitted to the bar in 1952, and practiced law from 1954-84. The Harris W. Fawell Congressional Papers are held at North Central College.",
+        "doc_type": "golden",
+        "sub_answer": "West Chicago"
+      },
+      {
+        "think": "Now that I know Harris W. Fawell was born in West Chicago, I need to find out which county this city is located in to answer the main question.",
+        "sub_question": "What is the administrative territorial entity where West Chicago is located?",
+        "retrieval": [],
+        "doc": "West Chicago is a city in DuPage County, Illinois, United States. The population was 27,086 at the 2010 census. It was formerly named Junction and later Turner, after its founder, John B. Turner, president of the Galena and Chicago Union Railroad (G&CU) in 1855. The city was initially established around the first junction of railroad lines in Illinois, and today is still served by the Metra service via West Chicago station.",
+        "doc_type": "golden",
+        "sub_answer": "DuPage County"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 1
+    }
+  },
+  {
+    "id": "11640_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      11640
+    ],
+    "main_question": "When did the state where Shaw is located become a right to work state?",
+    "main_answer": "1954",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine when the state where Shaw is located became a right to work state, I first need to identify the state in which Shaw is situated.",
+        "sub_question": "Where is Shaw located in terms of administrative territorial entity?",
+        "retrieval": [],
+        "doc": "Shaw is a city in Bolivar and Sunflower counties, Mississippi, in the Mississippi Delta region. The name was derived from an old Indian tribe northeast of this region. The population was 1,952 at the 2010 census.",
+        "doc_type": "golden",
+        "sub_answer": "Mississippi"
+      },
+      {
+        "think": "Now that I know Shaw is in Mississippi, I can find out when Mississippi adopted right to work laws to answer the main question.",
+        "sub_question": "when did Mississippi become a right to work state",
+        "retrieval": [],
+        "doc": "Alabama (adopted 1953, Constitution 2016) Arizona (Constitution, State Constitution Article 25 approved 1946) (adopted 1944) Arkansas (Constitution, 1947, Amendment 34) Florida (Constitution, 1944, revised 1968, Article 1, Section 6) Georgia (adopted 1947) Idaho (adopted 1985) Indiana (State law, 2012) Iowa (adopted 1947) Kansas (Constitution, 1958, Article 15, Section 12) Kentucky (adopted 2017) Louisiana (adopted 1976) Michigan (State law, 2012) Mississippi (Constitution, adopted 1954) Missouri (adopted 2017) (Postponed by petition to 2018 for citizen voting) Nebraska (Constitution and statute, adopted 1946) Nevada (adopted 1951) North Carolina (adopted 1947) North Dakota (adopted 1947) Oklahoma (Constitution, adopted 2001) South Carolina (adopted 1954) South Dakota (adopted 1946) Tennessee (adopted 1947) Texas (adopted 1947, revised 1993) Utah (adopted 1955) Virginia (adopted 1947) West Virginia (adopted 2016) (Went into effect September 2017 due to lower court injunctions) Wisconsin (adopted 2015) Wyoming (adopted 1963)",
+        "doc_type": "golden",
+        "sub_answer": "1954"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 2
+    }
+  },
+  {
+    "id": "5768_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      5768
+    ],
+    "main_question": "What is the word for spirits associated with shintoism in a country having So Long, Au Revoir as language of work or name?",
+    "main_answer": "Kami",
+    "main_answer_aliases": [
+      "kami"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To find the word for spirits associated with Shintoism, I first need to determine the language of the phrase 'So Long, Au Revoir' to identify the country in question.",
+        "sub_question": "What is the language of the work or name So Long, Au Revoir?",
+        "retrieval": [],
+        "doc": "So Long, au Revoir is the first Japanese language studio album by South Korean rock band F.T. Island, released on 16 December, 2009 by indie label AI Entertainment. The first single, \"The One\", released much earlier, debuted at 9th place on the Oricon daily chart. This was the last album recorded with Oh Won-bin, who shortly thereafter left the band.",
+        "doc_type": "golden",
+        "sub_answer": "Japanese"
+      },
+      {
+        "think": "Now that I know the language is Japanese, I can find the specific term for spirits associated with Shintoism in Japanese to answer the main question.",
+        "sub_question": "Japanese for spirits these are associated with shintoism",
+        "retrieval": [],
+        "doc": "Kami is the Japanese word for a god, deity, divinity, or spirit. It has been used to describe mind (心霊), God (ゴッド), supreme being (至上者), one of the Shinto deities, an effigy, a principle, and anything that is worshipped.",
+        "doc_type": "golden",
+        "sub_answer": "Kami"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 3
+    }
+  },
+  {
+    "id": "19482_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19482
+    ],
+    "main_question": "What character in Shrek 2 is played by the person who sang the McDonald's jingle I am Loving it?",
+    "main_answer": "Arthur Pendragon",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out which character in *Shrek 2* was played by the singer of the McDonald's jingle *I am Loving it*, I first need to identify who sang that jingle.",
+        "sub_question": "who has sung the mcdonald's jingle i am loving it",
+        "retrieval": [],
+        "doc": "``I'm Lovin 'It ''is a song recorded by American singer - songwriter Justin Timberlake. The song was produced by The Neptunes and is credited as being written by Pharrell Williams, Tom Batoy, Andreas Forberger and Franco Tortora.",
+        "doc_type": "golden",
+        "sub_answer": "Justin Timberlake"
+      },
+      {
+        "think": "Now that I know Justin Timberlake sang the jingle, I need to determine which character he voiced in *Shrek 2* to answer the main question.",
+        "sub_question": "who does Justin Timberlake play in shrek 2",
+        "retrieval": [],
+        "doc": "Shrek the Third is a 2007 American computer - animated fantasy comedy film and the third installment in the Shrek franchise, produced by DreamWorks Animation. It is the sequel to 2004's Shrek 2, and is the first in the series to be distributed by Paramount Pictures, which acquired DreamWorks Pictures, the former parent of DreamWorks Animation, in 2006. Chris Miller and Raman Hui directed and co-directed the film, respectively, with the former also co-writing the screenplay with Jeffrey Price, Peter S. Seaman, and Aron Warner. In addition to Mike Myers, Eddie Murphy, Cameron Diaz, Antonio Banderas, Rupert Everett, Julie Andrews, and John Cleese, who reprise their roles from Shrek 2, the film also features Justin Timberlake in the role of Arthur Pendragon and Eric Idle as Merlin. Harry Gregson - Williams composed the original music for the film. The story takes place eight months after the marriage of Shrek and Fiona in the first film. Reluctantly reigning over the kingdom of Far, Far Away, Shrek sets out to find the next heir to the throne -- Fiona's cousin Artie, while Prince Charming is plotting to overthrow Shrek and become king.",
+        "doc_type": "golden",
+        "sub_answer": "Arthur Pendragon"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 4
+    }
+  },
+  {
+    "id": "13809_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      13809
+    ],
+    "main_question": "In what country is the Roman Catholic Archdiocese of the city that is the capital of the country's Mid-Western Region?",
+    "main_answer": "Nigeria",
+    "main_answer_aliases": [
+      "NGA",
+      "NG"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To locate the Roman Catholic Archdiocese, I first need to identify the capital of the Mid-Western Region, as the main question is centered around this city.",
+        "sub_question": "What is the capital of the Mid-Western Region?",
+        "retrieval": [],
+        "doc": "It was formed in June 1963 from Benin and Delta provinces of the Western Region, and its capital was Benin City. It was renamed a province in 1966, and in 1967 when the other provinces were split up into several states, it remained territorially intact, becoming a state.",
+        "doc_type": "golden",
+        "sub_answer": "Benin City"
+      },
+      {
+        "think": "Now that I know the capital is Benin City, I need to determine the country where its Roman Catholic Archdiocese is located to answer the main question.",
+        "sub_question": "In which country is the Roman Catholic Archdiocese of Benin City located?",
+        "retrieval": [],
+        "doc": "The Roman Catholic Archdiocese of Benin City is the Metropolitan See for the Ecclesiastical province of Benin City in Nigeria.",
+        "doc_type": "golden",
+        "sub_answer": "Nigeria"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 5
+    }
+  },
+  {
+    "id": "5348_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      5348
+    ],
+    "main_question": "Who is the sister of the performer of Life?",
+    "main_answer": "Astrid Young",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the sister of the performer of 'Life', I first need to identify who performed the song 'Life'.",
+        "sub_question": "Who performed Life?",
+        "retrieval": [],
+        "doc": "Life is an album by Canadian musician Neil Young and his backing band Crazy Horse, and it is Young's last release on the Geffen label. As with their 1979 album \"Rust Never Sleeps\", Young and the Horse performed most of this album's songs live with the exceptions of \"Cryin' Eyes\" and \"We Never Danced\" which were recorded in studio. The album was released on July 6, 1987.",
+        "doc_type": "golden",
+        "sub_answer": "Neil Young"
+      },
+      {
+        "think": "Now that I know Neil Young performed 'Life', I can look up his siblings to find his sister.",
+        "sub_question": "Who are Neil Young's siblings?",
+        "retrieval": [],
+        "doc": "Scott Alexander Young (April 14, 1918 – June 12, 2005) was a Canadian journalist, sportswriter, novelist and the father of musicians Neil Young and Astrid Young. Over his career, Young wrote 45 books, including novels and non-fiction for adult and youth audiences.",
+        "doc_type": "golden",
+        "sub_answer": "Astrid Young"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 6
+    }
+  },
+  {
+    "id": "3191_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      3191
+    ],
+    "main_question": "When is the new album by the performer of Don't Judge Me coming out?",
+    "main_answer": "October 31, 2017",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out when the new album is coming out, I first need to identify the performer of 'Don't Judge Me' as the question references the song but not the artist directly.",
+        "sub_question": "Who performed Don't Judge Me?",
+        "retrieval": [],
+        "doc": "\"Don't Judge Me\" is a song by American recording artist Chris Brown on his fifth studio album, \"Fortune\" (2012). It was written by Brown and produced by The Messengers. The song was sent to urban contemporary radio stations in the United States on August 14, 2012 as the fifth and final single from the album. \"Don't Judge Me\" is a midtempo ballad, with lyrics in which Brown asks his lover to forgive him \"for his past indiscretions\" and \"move on with the future.\" The lyrics reportedly referred to Brown's former relationships with aspiring American model and fashion designer Karrueche Tran and Barbadian recording artist Rihanna.",
+        "doc_type": "golden",
+        "sub_answer": "Chris Brown"
+      },
+      {
+        "think": "Now that I know Chris Brown performed 'Don't Judge Me', I need to find out when his new album is scheduled for release to answer the main question.",
+        "sub_question": "when is Chris Brown new album coming out",
+        "retrieval": [],
+        "doc": "Heartbreak on a Full Moon is the eighth studio album by American singer Chris Brown. The album is a double - disc, and was released on digital platforms on October 31, 2017 and has a physical release of November 3, 2017 by RCA Records.",
+        "doc_type": "golden",
+        "sub_answer": "October 31, 2017"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 7
+    }
+  },
+  {
+    "id": "529_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      529
+    ],
+    "main_question": "What county contains the town that WWOT is licensed in?",
+    "main_answer": "Blair County",
+    "main_answer_aliases": [
+      "Blair County, Pennsylvania"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the county where WWOT is licensed, I first need to identify the town where WWOT is licensed.",
+        "sub_question": "What town is WWOT liscensed in?",
+        "retrieval": [],
+        "doc": "WWOT is the Top 40 music formatted radio station in Altoona, Pennsylvania. The station is owned by Forever Broadcasting and is related with Hot 92 in Johnstown, Pennsylvania. The station has an ERP of 3,000 Watts.",
+        "doc_type": "golden",
+        "sub_answer": "Altoona"
+      },
+      {
+        "think": "Now that I know WWOT is licensed in Altoona, I need to find out which county Altoona is located in to answer the main question.",
+        "sub_question": "Where is Altoona located?",
+        "retrieval": [],
+        "doc": "WRTA is a News/Talk/Sports formatted broadcast radio station licensed to Altoona, Pennsylvania, serving Altoona and Blair County, Pennsylvania. WRTA is owned and operated by Handsome Brothers, Inc.",
+        "doc_type": "golden",
+        "sub_answer": "Blair County"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 8
+    }
+  },
+  {
+    "id": "6847_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      6847
+    ],
+    "main_question": "How did the entity within which the basic MP3 decoding and technology patent is free rank Switzerland's economy?",
+    "main_answer": "Europe's most innovative country",
+    "main_answer_aliases": [
+      "Europe"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "First, I need to identify where the basic MP3 decoding and technology patent is free, as this will determine the entity whose ranking of Switzerland's economy is relevant.",
+        "sub_question": "Where is the basic MP3 decoding and technology patent free?",
+        "retrieval": [],
+        "doc": "The basic MP3 decoding and encoding technology is patent-free in the European Union, all patents having expired there. In the United States, the technology will be substantially patent-free on 31 December 2017 (see below). The majority of MP3 patents expired in the US between 2007 and 2015.",
+        "doc_type": "golden",
+        "sub_answer": "European Union"
+      },
+      {
+        "think": "Now that I know the patent is free in the European Union, I can find out how the EU ranks Switzerland's economy to answer the main question.",
+        "sub_question": "How did European Union rank Switzerland's economy?",
+        "retrieval": [],
+        "doc": "The World Economic Forum's Global Competitiveness Report currently ranks Switzerland's economy as the most competitive in the world, while ranked by the European Union as Europe's most innovative country. For much of the 20th century, Switzerland was the wealthiest country in Europe by a considerable margin (by GDP – per capita). In 2007 the gross median household income in Switzerland was an estimated 137,094 USD at Purchasing power parity while the median income was 95,824 USD. Switzerland also has one of the world's largest account balances as a percentage of GDP.",
+        "doc_type": "golden",
+        "sub_answer": "Europe's most innovative country"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 9
+    }
+  },
+  {
+    "id": "13222_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      13222
+    ],
+    "main_question": "Who helped resolve the dispute between Virginia and the state where Elk Landing is?",
+    "main_answer": "William R. Day",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To understand the dispute resolution, I first need to identify the state where Elk Landing is located as it's part of the question.",
+        "sub_question": "What is the name of the state where Elk Landing is located?",
+        "retrieval": [],
+        "doc": "Elk Landing is the name of a historic home located at Elkton, Cecil County, Maryland. The house at Elk Landing was listed on the National Register of Historic Places in 1984.",
+        "doc_type": "golden",
+        "sub_answer": "Maryland"
+      },
+      {
+        "think": "Now that I know Maryland is involved, I can focus on finding out who resolved the dispute between Virginia and Maryland.",
+        "sub_question": "who helped resolve the dispute between virginia and Maryland",
+        "retrieval": [],
+        "doc": "Maryland v. West Virginia Supreme Court of the United States Argued November 2 -- 4, 1909 Decided February 21, 1910 Full case name State of Maryland v. State of West Virginia Citations 217 U.S. 1 (more) 30 S. Ct. 268; 54 L. Ed. 645; 1910 U.S. LEXIS 1942 Subsequent history Maryland v. West Virginia, 225 U.S. 1 (1912) Holding West Virginia's border extends to the low - water mark on the south bank of the Potomac River; Boundary disputes should be adjusted according to prescription and equity to least disturb private rights and titles Court membership Chief Justice Melville Fuller Associate Justices John M. Harlan David J. Brewer Edward D. White Rufus W. Peckham Joseph McKenna Oliver W. Holmes, Jr. William R. Day William H. Moody Case opinions Majority Day, joined by unanimous",
+        "doc_type": "golden",
+        "sub_answer": "William R. Day"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 10
+    }
+  },
+  {
+    "id": "11521_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      11521
+    ],
+    "main_question": "Where are the San Juan mountains located in the state where Tsankawi is located?",
+    "main_answer": "northwestern New Mexico",
+    "main_answer_aliases": [
+      "New Mexico"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To locate the San Juan mountains relative to Tsankawi, I first need to identify the state where Tsankawi is located.",
+        "sub_question": "Where is Tsankawi located?",
+        "retrieval": [],
+        "doc": "Tsankawi is a detached portion of Bandelier National Monument in New Mexico, near White Rock. It is accessible from a roadside parking area just north of the intersection of East Jemez Road and State Road 4. A self-guided 1.5-mile loop trail provides access to numerous unexcavated ruins, caves carved into soft tuff, and petroglyphs. A trail guide, available at the entrance, provides a detailed description of the area.",
+        "doc_type": "golden",
+        "sub_answer": "New Mexico"
+      },
+      {
+        "think": "Now that I know Tsankawi is in New Mexico, I need to find where the San Juan mountains are located within New Mexico to answer the main question.",
+        "sub_question": "where are the san juan mountains in New Mexico",
+        "retrieval": [],
+        "doc": "The San Juan Mountains are a high and rugged mountain range in the Rocky Mountains in southwestern Colorado and northwestern New Mexico. The area is highly mineralized (the Colorado Mineral Belt) and figured in the gold and silver mining industry of early Colorado. Major towns, all old mining camps, include Creede, Lake City, Silverton, Ouray, and Telluride. Large scale mining has ended in the region, although independent prospectors still work claims throughout the range. The last large scale mines were the Sunnyside Mine near Silverton, which operated until late in the 20th century and the Idarado Mine on Red Mountain Pass that closed down in the 1970s. Famous old San Juan mines include the Camp Bird and Smuggler Union mines, both located between Telluride and Ouray.",
+        "doc_type": "golden",
+        "sub_answer": "northwestern New Mexico"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 11
+    }
+  },
+  {
+    "id": "12788_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      12788
+    ],
+    "main_question": "When did the country where the Cobra rollercoaster is located join the Russian Empire?",
+    "main_answer": "1809",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine when the country where the Cobra rollercoaster is located joined the Russian Empire, I first need to identify the country where Cobra is from.",
+        "sub_question": "Which country is Cobra from?",
+        "retrieval": [],
+        "doc": "Cobra is a roller coaster located at PowerPark in Alahärmä, Finland. \"Cobra\" was the first Vekoma boomerang to use the new MK1211 open sided train.",
+        "doc_type": "golden",
+        "sub_answer": "Finland"
+      },
+      {
+        "think": "Now that I know Cobra is from Finland, I need to find out when Finland became part of the Russian Empire to answer the main question.",
+        "sub_question": "When did Finland join the Russian Empire?",
+        "retrieval": [],
+        "doc": "As the Grand Duchy of Finland was part of the Russian Empire from 1809 to 1918, a number of Russian speakers have remained in Finland. There are 33,400 Russian-speaking Finns, amounting to 0.6% of the population. Five thousand (0.1%) of them are late 19th century and 20th century immigrants or their descendants, and the remaining majority are recent immigrants who moved there in the 1990s and later.[citation needed] Russian is spoken by 1.4% of the population of Finland according to a 2014 estimate from the World Factbook.",
+        "doc_type": "golden",
+        "sub_answer": "1809"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 12
+    }
+  },
+  {
+    "id": "9335_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      9335
+    ],
+    "main_question": "What is the name of the Chief Minister of the location that is the place of birth for Balavant Apte?",
+    "main_answer": "Devendra Fadnavis",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the Chief Minister of the location where Balavant Apte was born, I first need to identify his birthplace.",
+        "sub_question": "Where was Balavant Apte born?",
+        "retrieval": [],
+        "doc": "Balavant Apte, also called Bal Apte and Balasaheb Apte (18 January 1939 – 17 July 2012) was a lawyer, politician of the Bharatiya Janata Party (BJP) and a member of the Parliament of India representing Maharashtra in the Rajya Sabha, the upper house of the Indian Parliament. He was a MA LLM. He died on 17 July 2012 at Hinduja Hospital in Mumbai.",
+        "doc_type": "golden",
+        "sub_answer": "Maharashtra"
+      },
+      {
+        "think": "Now that I know Balavant Apte was born in Maharashtra, I can determine the current Chief Minister of Maharashtra to answer the main question.",
+        "sub_question": "what is the name of chief minister of Maharashtra",
+        "retrieval": [],
+        "doc": "The state of Maharashtra was formed by dissolution of the Bombay State on 1 May 1960. Yashwantrao Chavan, who was serving as the third CM of Bombay State since 1956, became the first CM of Maharashtra. He belonged to the Indian National Congress and held the office until the 1962 Assembly elections. Marotrao Kannanwar succeeded him and was the only CM to die while in office. Vasantrao Naik, who was in office from December 1963 to February 1975 for more than 11 years, has by far been the longest serving CM. He also was the first and only CM to complete his full term of five years (1967 - 1972). With the exceptions of Manohar Joshi (Shiv Sena), Narayan Rane (Shiv Sena) and Devendra Fadnavis (Bharatiya Janata Party), all other CMs have been from the Congress or its breakaway parties. So far, President's rule has been imposed twice in the state: first from February to June 1980 and again from September to October 2014. Devendra Fadnavis is the incumbent CM since 31 October 2014, the first from the BJP.",
+        "doc_type": "golden",
+        "sub_answer": "Devendra Fadnavis"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 13
+    }
+  },
+  {
+    "id": "19355_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19355
+    ],
+    "main_question": "How did the claims on the areas in the continent with an AIDS pandemic benefit the European powers?",
+    "main_answer": "colony’s commercial interests without having to fear rival European competition.",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To understand how European powers benefited from claims in a continent affected by AIDS, I first need to identify which continent experienced an AIDS pandemic.",
+        "sub_question": "What continent has an AIDS pandemic?",
+        "retrieval": [],
+        "doc": "HIV originated in Africa, and spread to the United States via Haiti between 1966 and 1972. AIDS is currently a pandemic, with infection rates as high as 25% in southern and eastern Africa. In 2006, the HIV prevalence rate among pregnant women in South Africa was 29.1%. Effective education about safer sexual practices and bloodborne infection precautions training have helped to slow down infection rates in several African countries sponsoring national education programs. Infection rates are rising again in Asia and the Americas. The AIDS death toll in Africa may reach 90–100 million by 2025.",
+        "doc_type": "golden",
+        "sub_answer": "Africa"
+      },
+      {
+        "think": "Now that I know the continent is Africa, I need to explore how European claims on African territories specifically benefited them, focusing on commercial and competitive advantages.",
+        "sub_question": "How did the claims on the areas in Africa benefit the European powers?",
+        "retrieval": [],
+        "doc": "The major European powers laid claim to the areas of Africa where they could exhibit a sphere of influence over the area. These claims did not have to have any substantial land holdings or treaties to be legitimate. The European power that demonstrated its control over a territory accepted the mandate to rule that region as a national colony. The European nation that held the claim developed and benefited from their colony’s commercial interests without having to fear rival European competition. With the colonial claim came the underlying assumption that the European power that exerted control would use its mandate to offer protection and provide welfare for its colonial peoples, however, this principle remained more theory than practice. There were many documented instances of material and moral conditions deteriorating for native Africans in the late nineteenth and early twentieth centuries under European colonial rule, to the point where the colonial experience for them has been described as \"hell on earth.\"",
+        "doc_type": "golden",
+        "sub_answer": "colony’s commercial interests without having to fear rival European competition."
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 14
+    }
+  },
+  {
+    "id": "727_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      727
+    ],
+    "main_question": "Who is the father of the producer of Gracie?",
+    "main_answer": "Charles Guggenheim",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the father of the producer of *Gracie*, I first need to identify who the producer of *Gracie* is.",
+        "sub_question": "Who is the producer of Gracie?",
+        "retrieval": [],
+        "doc": "Gracie is a 2007 American sports drama film directed by Davis Guggenheim. It stars Carly Schroeder as Gracie Bowen, Dermot Mulroney as Bryan Bowen, Elisabeth Shue as Lindsay Bowen, Jesse Lee Soffer as Johnny Bowen, and Andrew Shue as Coach Owen Clark.",
+        "doc_type": "golden",
+        "sub_answer": "Davis Guggenheim"
+      },
+      {
+        "think": "Now that I know the producer is Davis Guggenheim, I need to determine who his father is to answer the main question.",
+        "sub_question": "The father of Davis Guggenheim is whom?",
+        "retrieval": [],
+        "doc": "He was born Philip Davis Guggenheim in St. Louis, Missouri, United States, the son of Marion Davis (née Streett) and film director and producer Charles Guggenheim. His father was Jewish, whereas his mother was Episcopalian. He graduated from the Potomac School (McLean, Virginia) (1979), from Sidwell Friends School (1982), and from Brown University (1986).",
+        "doc_type": "golden",
+        "sub_answer": "Charles Guggenheim"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 15
+    }
+  },
+  {
+    "id": "15741_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      15741
+    ],
+    "main_question": "What country is the child of Silverado's screenwriter from?",
+    "main_answer": "America",
+    "main_answer_aliases": [
+      "the US",
+      "U.S.",
+      "the United States",
+      "United States",
+      "US"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To find out the country of the child of Silverado's screenwriter, I first need to identify who wrote the screenplay for Silverado.",
+        "sub_question": "Who wrote the screenplay for Silverado?",
+        "retrieval": [],
+        "doc": "Silverado is a 1985 American western film produced and directed by Lawrence Kasdan, written by Kasdan and his brother Mark. It stars Kevin Kline, Scott Glenn, Danny Glover and Kevin Costner. The supporting cast features Brian Dennehy, Rosanna Arquette, John Cleese, Jeff Goldblum and Linda Hunt.",
+        "doc_type": "golden",
+        "sub_answer": "Lawrence Kasdan"
+      },
+      {
+        "think": "Now that I know Lawrence Kasdan wrote the screenplay, I need to find out who his children are to proceed further.",
+        "sub_question": "Who are the children of Lawrence Kasdan?",
+        "retrieval": [],
+        "doc": "Zero Effect is a 1998 mystery comedy film written and directed by Jake Kasdan. It stars Bill Pullman as \"the world's most private detective\", Daryl Zero, and Ben Stiller as his assistant Steve Arlo. Its plot is loosely based on the Arthur Conan Doyle short story \"A Scandal in Bohemia\".",
+        "doc_type": "golden",
+        "sub_answer": "Jake Kasdan"
+      },
+      {
+        "think": "With the name of Lawrence Kasdan's child, Jake Kasdan, I can now determine his citizenship to answer the main question.",
+        "sub_question": "In which country is Jake Kasdan a citizen?",
+        "retrieval": [],
+        "doc": "Sex Tape is a 2014 American comedy film directed by Jake Kasdan and written by Kate Angelo, Jason Segel, and Nicholas Stoller. Starring Segel, Cameron Diaz, Rob Corddry, Ellie Kemper, and Rob Lowe, the film was released on July 18, 2014, by Columbia Pictures.",
+        "doc_type": "golden",
+        "sub_answer": "America"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 16
+    }
+  },
+  {
+    "id": "19317_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19317
+    ],
+    "main_question": "What is the length of the coastline in the country which has the longest Constitution?",
+    "main_answer": "7,516.6 km (4,671 mi)",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the coastline length of the country with the longest Constitution, I first need to identify which country has the longest Constitution.",
+        "sub_question": "What country has the longest Constitution?",
+        "retrieval": [],
+        "doc": "In India, the longest constitutional text in the history of the world has governed that country since 1950. Although the Constitution of India may have been intended to provide details that would limit the opportunity for judicial discretion, the more text there is in a constitution the greater opportunity the judiciary may have to exercise judicial review. According to Indian journalist Harish Khare, \"The rule of law or rather the Constitution [is] in danger of being supplanted by the rule of judges.\"",
+        "doc_type": "golden",
+        "sub_answer": "India"
+      },
+      {
+        "think": "Now that I know India has the longest Constitution, I need to determine the length of its coastline to answer the main question.",
+        "sub_question": "what is the length of the coastline of India",
+        "retrieval": [],
+        "doc": "India lies on the Indian Plate, the northern portion of the Indo - Australian Plate, whose continental crust forms the Indian subcontinent. The country is situated north of the equator between 8 ° 4 'to 37 ° 6' north latitude and 68 ° 7 'to 97 ° 25' east longitude. It is the seventh - largest country in the world, with a total area of 3,287,469 square kilometres (1,269,299 sq mi). India measures 3,214 km (1,997 mi) from north to south and 2,933 km (1,822 mi) from east to west. It has a land frontier of 15,106.7 km (9,387 mi) and a coastline of 7,516.6 km (4,671 mi).",
+        "doc_type": "golden",
+        "sub_answer": "7,516.6 km (4,671 mi)"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 17
+    }
+  },
+  {
+    "id": "5193_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      5193
+    ],
+    "main_question": "Who is the son of the performer of Graceland?",
+    "main_answer": "Harper Simon",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out who the son of the performer of Graceland is, I first need to identify who performed at Graceland.",
+        "sub_question": "Who performed at Graceland?",
+        "retrieval": [],
+        "doc": "\"Graceland\" is the title song of the album \"Graceland\", released in 1986 by Paul Simon. The song features vocals by The Everly Brothers.",
+        "doc_type": "golden",
+        "sub_answer": "Paul Simon"
+      },
+      {
+        "think": "Now that I know Paul Simon performed at Graceland, I need to find out who his children are to determine his son.",
+        "sub_question": "Who are the children of Paul Simon?",
+        "retrieval": [],
+        "doc": "It featured Harper Simon, Paul Simon's son. Also, its drummer was Seb Rochford, who won the BBC Rising Star Jazz Award in 2004 and leads the Mercury Prize-nominated experimental-jazz group Polar Bear.",
+        "doc_type": "golden",
+        "sub_answer": "Harper Simon"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 18
+    }
+  },
+  {
+    "id": "19288_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19288
+    ],
+    "main_question": "About how many people speak Cheyenne in the state where area code 406 is located?",
+    "main_answer": "about 1,700",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the number of Cheyenne speakers in the state where area code 406 is located, I first need to identify which state corresponds to area code 406.",
+        "sub_question": "where is area code 406 located in usa",
+        "retrieval": [],
+        "doc": "Coordinates: 47 ° 00 ′ 01 ''N 109 ° 45 ′ 04'' W ﻿ / ﻿ 47.00028 ° N 109.75111 ° W ﻿ / 47.00028; - 109.75111 ﻿ (State of Montana) Area code 406 is the telephone area code covering the entire state of Montana. It has been Montana's area code since area codes were created in 1947.",
+        "doc_type": "golden",
+        "sub_answer": "Montana"
+      },
+      {
+        "think": "Now that I know the state is Montana, I can find out how many people there speak Cheyenne to answer the main question.",
+        "sub_question": "ABout how many people in the state of Montana speak Cheyenne?",
+        "retrieval": [],
+        "doc": "English is the official language in the state of Montana, as it is in many U.S. states. English is also the language of the majority. According to the 2000 U.S. Census, 94.8 percent of the population aged 5 and older speak English at home. Spanish is the language most commonly spoken at home other than English. There were about 13,040 Spanish-language speakers in the state (1.4 percent of the population) in 2011. There were also 15,438 (1.7 percent of the state population) speakers of Indo-European languages other than English or Spanish, 10,154 (1.1 percent) speakers of a Native American language, and 4,052 (0.4 percent) speakers of an Asian or Pacific Islander language. Other languages spoken in Montana (as of 2013) include Assiniboine (about 150 speakers in the Montana and Canada), Blackfoot (about 100 speakers), Cheyenne (about 1,700 speakers), Plains Cree (about 100 speakers), Crow (about 3,000 speakers), Dakota (about 18,800 speakers in Minnesota, Montana, Nebraska, North Dakota, and South Dakota), German Hutterite (about 5,600 speakers), Gros Ventre (about 10 speakers), Kalispel-Pend d'Oreille (about 64 speakers), Kutenai (about 6 speakers), and Lakota (about 6,000 speakers in Minnesota, Montana, Nebraska, North Dakota, South Dakota). The United States Department of Education estimated in 2009 that 5,274 students in Montana spoke a language at home other than English. These included a Native American language (64 percent), German (4 percent), Spanish (3 percent), Russian (1 percent), and Chinese (less than 0.5 percent).",
+        "doc_type": "golden",
+        "sub_answer": "about 1,700"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 19
+    }
+  },
+  {
+    "id": "14032_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      14032
+    ],
+    "main_question": "What weekly publication in the city where Hezekiah Augur was born is issued by Kerry's college?",
+    "main_answer": "Yale Herald",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the weekly publication issued by Kerry's college, I first need to identify which college Kerry attended.",
+        "sub_question": "Where did Kerry go to college?",
+        "retrieval": [],
+        "doc": "Kerry was born in Aurora, Colorado and attended boarding school in Massachusetts and New Hampshire. He graduated from Yale University class of 1966 with a political science major. Kerry enlisted in the Naval Reserve in 1966, and during 1968–1969 served an abbreviated four-month tour of duty in South Vietnam as officer-in-charge (OIC) of a Swift Boat. For that service, he was awarded combat medals that include the Silver Star Medal, Bronze Star Medal, and three Purple Heart Medals. Securing an early return to the United States, Kerry joined the Vietnam Veterans Against the War organization in which he served as a nationally recognized spokesman and as an outspoken opponent of the Vietnam War. He appeared in the Fulbright Hearings before the Senate Committee on Foreign Affairs where he deemed United States war policy in Vietnam to be the cause of war crimes.",
+        "doc_type": "golden",
+        "sub_answer": "Yale University"
+      },
+      {
+        "think": "Since the publication is in the city where Hezekiah Augur was born, I need to determine his birthplace to narrow down the location.",
+        "sub_question": "Where was Hezekiah Augur born?",
+        "retrieval": [],
+        "doc": "Augur was born in New Haven, Connecticut. The son of a carpenter, he learned his trade as a woodcarver, carving table legs and other furniture ornament. Borrowing $2,000 from his father, he was invited to join a grocery store business venture. Three years later he discovered, to his shock and amazement, that not only was his money gone, but that he owed his partners $7,000. While thus engaged he invented a lace-making machine that lifted the financial burdens that he had assumed and thus allowed him to take up carving full-time. Around that time he also invented a machine for carving piano legs. He switched to marble later in his career, being among the first native born Americans to do so. Chauncey Ives studied briefly with Augug.",
+        "doc_type": "golden",
+        "sub_answer": "New Haven"
+      },
+      {
+        "think": "Now that I know Kerry attended Yale University and Hezekiah Augur was born in New Haven, I can find the weekly publication issued by Yale in New Haven.",
+        "sub_question": "What weekly publication in New Haven is issued by Yale University ?",
+        "retrieval": [],
+        "doc": "New Haven is served by the daily New Haven Register, the weekly \"alternative\" New Haven Advocate (which is run by Tribune, the corporation owning the Hartford Courant), the online daily New Haven Independent, and the monthly Grand News Community Newspaper. Downtown New Haven is covered by an in-depth civic news forum, Design New Haven. The Register also backs PLAY magazine, a weekly entertainment publication. The city is also served by several student-run papers, including the Yale Daily News, the weekly Yale Herald and a humor tabloid, Rumpus Magazine. WTNH Channel 8, the ABC affiliate for Connecticut, WCTX Channel 59, the MyNetworkTV affiliate for the state, and Connecticut Public Television station WEDY channel 65, a PBS affiliate, broadcast from New Haven. All New York City news and sports team stations broadcast to New Haven County.",
+        "doc_type": "golden",
+        "sub_answer": "Yale Herald"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 20
+    }
+  },
+  {
+    "id": "7389_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      7389
+    ],
+    "main_question": "What collgee did the cast member of The Money Maker attend?",
+    "main_answer": "Columbia University",
+    "main_answer_aliases": [
+      "Columbia U",
+      "Columbia"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To find out which college a cast member of *The Money Maker* attended, I first need to identify who the cast members of the film are.",
+        "sub_question": "Who are the cast members of The Monster Maker?",
+        "retrieval": [],
+        "doc": "The Monster Maker is a 1944 science-fiction horror film starring J. Carrol Naish and Ralph Morgan. Albert Glasser supplied the film score, his first, an assignment for which he was paid US$250.",
+        "doc_type": "golden",
+        "sub_answer": "Ralph Morgan"
+      },
+      {
+        "think": "Now that I know Ralph Morgan is a cast member, I need to determine which college he attended to answer the main question.",
+        "sub_question": "The college Ralph Morgan attended was what?",
+        "retrieval": [],
+        "doc": "Morgan attended Trinity School, Riverview Military Academy and graduated from Columbia University with a law degree. However, after almost two years' practicing, he abandoned the world of jurisprudence for the vocation of journeyman actor, having already appeared in Columbia's annual Varsity Show. In 1905, billed as Raphael Kuhner Wupperman, he appeared in \"The Khan of Kathan\", that year's variety show.",
+        "doc_type": "golden",
+        "sub_answer": "Columbia University"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 21
+    }
+  },
+  {
+    "id": "16932_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      16932
+    ],
+    "main_question": "Who is the Chief of Police of the city where the performer of Happiness died?",
+    "main_answer": "Charles L. Beck",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the Chief of Police in the city where the performer of 'Happiness' died, I first need to identify who performed the song.",
+        "sub_question": "Who performed Happiness?",
+        "retrieval": [],
+        "doc": "\"Happiness\" is a song by American singer-songwriter Elliott Smith. It was released on February 8, 2000 by record label DreamWorks as the first single from his fifth studio album, \"Figure 8\". It was also released on 7-inch vinyl by Cavity Search.",
+        "doc_type": "golden",
+        "sub_answer": "Elliott Smith"
+      },
+      {
+        "think": "Now that I know the performer is Elliott Smith, I need to determine where he died to locate the relevant city.",
+        "sub_question": "Where did Elliott Smith die?",
+        "retrieval": [],
+        "doc": "According to the liner notes, the album is dedicated to the memory of fellow Los Angeles-based musician Elliott Smith and to Bomp! Records founder Greg Shaw.",
+        "doc_type": "golden",
+        "sub_answer": "Los Angeles"
+      },
+      {
+        "think": "With the city identified as Los Angeles, I can now find the current Chief of Police to answer the main question.",
+        "sub_question": "who is the chief of police of Los Angeles",
+        "retrieval": [],
+        "doc": "Chief of the City of Los Angeles Police Department Seal of the LAPD Flag of the Chief of the LAPD Incumbent Charles L. Beck since November 9, 2009 (2009 - 11 - 09) Los Angeles Police Department Style Chief of Police Member of Los Angeles City Council Seat Los Angeles County, California, U.S. Appointer Mayor of Los Angeles Inaugural holder Jacob F. Gerkens Formation December 18, 1876 Salary $307,291 Website (1)",
+        "doc_type": "golden",
+        "sub_answer": "Charles L. Beck"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 22
+    }
+  },
+  {
+    "id": "10752_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      10752
+    ],
+    "main_question": "Who is the current prime minister of the country Gourie Cave is located?",
+    "main_answer": "Andrew Holness",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the current prime minister of the country where Gourie Cave is located, I first need to identify the country in which Gourie Cave is situated.",
+        "sub_question": "Which country is Gourie Cave located in?",
+        "retrieval": [],
+        "doc": "Gourie Cave is a large river cave in Manchester Parish in west-central Jamaica. At 3505 metres it is the longest cave known in the island. It is liable to flooding.",
+        "doc_type": "golden",
+        "sub_answer": "Jamaica"
+      },
+      {
+        "think": "Now that I know Gourie Cave is in Jamaica, I can find out who the current prime minister of Jamaica is to answer the main question.",
+        "sub_question": "who is the current prime minister of Jamaica",
+        "retrieval": [],
+        "doc": "The Prime Minister of Jamaica is Jamaica's head of government, currently Andrew Holness. Holness, as leader of the governing Jamaica Labour Party (JLP), was sworn in as Prime Minister on 3 March 2016, succeeding People's National Party (PNP) leader Portia Simpson - Miller. This was a result of the JLP's victory in Jamaica's 25 February 2016 general election.",
+        "doc_type": "golden",
+        "sub_answer": "Andrew Holness"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 23
+    }
+  },
+  {
+    "id": "14580_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      14580
+    ],
+    "main_question": "What is the county seat of the county where Certified Acceptance Corporation is headquartered?",
+    "main_answer": "Somerville",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the county seat where Certified Acceptance Corporation is headquartered, I first need to determine the location of its headquarters.",
+        "sub_question": "Where is the headquarters of Certified Acceptance Corporation located?",
+        "retrieval": [],
+        "doc": "Certified Acceptance Corporation (CAC) is a Far Hills, New Jersey coin certification company started in 2007 by coin dealer John Albanese. The firm evaluates certain numismatically valuable U.S. coins already certified by Numismatic Guaranty Corporation (NGC) or Professional Coin Grading Service (PCGS).",
+        "doc_type": "golden",
+        "sub_answer": "Far Hills"
+      },
+      {
+        "think": "Now that I know the headquarters is in Far Hills, I need to identify the county where Far Hills is located to proceed further.",
+        "sub_question": "Where is Far Hills located?",
+        "retrieval": [],
+        "doc": "Far Hills is a borough in Somerset County, New Jersey, United States. As of the 2010 United States Census, the population was 919, reflecting an increase of 60 (+7.0%) from the 859 counted in the 2000 Census, which had in turn increased by 202 (+30.7%) from the 657 counted in the 1990 Census.",
+        "doc_type": "golden",
+        "sub_answer": "Somerset County"
+      },
+      {
+        "think": "Now that I know Far Hills is in Somerset County, I can find the county seat of Somerset County to answer the main question.",
+        "sub_question": "What is the capital of Somerset County?",
+        "retrieval": [],
+        "doc": "The Courier News is a daily newspaper headquartered in Somerville, New Jersey, that serves Somerset County and other areas of Central Jersey. The paper has been owned by the Gannett Company since 1940.",
+        "doc_type": "golden",
+        "sub_answer": "Somerville"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 24
+    }
+  },
+  {
+    "id": "1698_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1698
+    ],
+    "main_question": "Where is the university related to Ian Ballantine located?",
+    "main_answer": "Westminster, central London, near the boundary between Covent Garden and Holborn",
+    "main_answer_aliases": [
+      "London"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the location of the university related to Ian Ballantine, I first need to identify which college or university he is associated with.",
+        "sub_question": "Which college or university is related with Ian Ballantine?",
+        "retrieval": [],
+        "doc": "Born in New York City, the son of Stella Commins Ballantine (half-niece of anarchist Emma Goldman) and the Scottish actor and sculptor Edward James Ballantine, Ian Ballantine received his undergraduate degree from Columbia College and his graduate degree from the London School of Economics. His Master's thesis featured the possibilities of paperback printing.",
+        "doc_type": "golden",
+        "sub_answer": "London School of Economics"
+      },
+      {
+        "think": "Now that I know the university is the London School of Economics, I need to find its specific location to answer the main question.",
+        "sub_question": "where is London School of Economics located",
+        "retrieval": [],
+        "doc": "LSE is located in Westminster, central London, near the boundary between Covent Garden and Holborn. The area is historically known as Clare Market. The LSE has more than 10,000 students and 3,300 staff, just under half of whom come from outside the UK. It had a consolidated income of £340.7 million in 2015 / 16, of which £30.3 million was from research grants. One hundred and fifty five nationalities are represented amongst LSE's student body and the school has the highest percentage of international students (70%) of all British universities. Despite its name, the school is organised into 25 academic departments and institutes which conduct teaching and research across a range of legal studies and social sciences.",
+        "doc_type": "golden",
+        "sub_answer": "Westminster, central London, near the boundary between Covent Garden and Holborn"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 25
+    }
+  },
+  {
+    "id": "6348_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      6348
+    ],
+    "main_question": "What county was Seaborn Reese born in?",
+    "main_answer": "Morgan County",
+    "main_answer_aliases": [
+      "Morgan County, Georgia"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the county where Seaborn Reese was born, I first need to identify his birthplace.",
+        "sub_question": "Where was Seaborn Reese born?",
+        "retrieval": [],
+        "doc": "Reese was born in Madison, Georgia in 1846. He attended the University of Georgia (UGA) in Athens but left before graduating in his senior year of 1868. He studied law, gained admittance to the state bar in 1871 and began a law practice in Madison.",
+        "doc_type": "golden",
+        "sub_answer": "Madison"
+      },
+      {
+        "think": "Now that I know Seaborn Reese was born in Madison, I need to find out which county Madison is located in to answer the main question.",
+        "sub_question": "Where is Madison located in terms of administrative territorial entity?",
+        "retrieval": [],
+        "doc": "Madison is a city in Morgan County, Georgia, United States. It is part of the Atlanta-Athens-Clarke-Sandy Springs Combined Statistical Area. The population was 3,636 at the 2000 census. The city is the county seat of Morgan County and the site of the Morgan County Courthouse.",
+        "doc_type": "golden",
+        "sub_answer": "Morgan County"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 26
+    }
+  },
+  {
+    "id": "19488_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19488
+    ],
+    "main_question": "What did the country of citizenship of Qiu Shihua do to control population?",
+    "main_answer": "The one - child policy,",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out what actions were taken by Qiu Shihua's country of citizenship to control population, I first need to identify which country Qiu Shihua is from.",
+        "sub_question": "Which country's citizen was Qiu Shihua?",
+        "retrieval": [],
+        "doc": "Qiu Shihua (Chinese: 邱世华) is a notable Chinese landscape painter born 1940 in Zizhong, Sichuan Province, China. He lives and works in Beijing and Shenzhen.",
+        "doc_type": "golden",
+        "sub_answer": "China"
+      },
+      {
+        "think": "Now that I know Qiu Shihua is from China, I can look into the specific population control measures implemented by China.",
+        "sub_question": "what did China do to control its population",
+        "retrieval": [],
+        "doc": "The one - child policy, a part of the family planning policy, was a population planning policy of China. It was introduced in 1979 and began to be formally phased out near the end of 2015 and the beginning of 2016. The policy was only enforced on Han Chinese and allowed exceptions for many groups, including ethnic minorities. In 2007, 36% of China's population was subject to a strict one - child restriction, with an additional 53% being allowed to have a second child if the first child was a girl. Provincial governments imposed fines for violations, and the local and national governments created commissions to raise awareness and carry out registration and inspection work.",
+        "doc_type": "golden",
+        "sub_answer": "The one - child policy,"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 27
+    }
+  },
+  {
+    "id": "236_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      236
+    ],
+    "main_question": "Who was the first person buried in Westminster Abbey by the only non royal ruler of Britain?",
+    "main_answer": "Admiral Robert Blake",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the first person buried in Westminster Abbey by the non-royal ruler, I first need to identify who that non-royal ruler was.",
+        "sub_question": "who was the only ruler of britain who ruled instead of a king or queen",
+        "retrieval": [],
+        "doc": "The Civil War culminated in the execution of the king in 1649, the overthrow of the English monarchy, and the establishment of the Commonwealth of England. Charles I's son, Charles II, was proclaimed King of Great Britain in Scotland, but he was forced to flee abroad after he invaded England and was defeated at the Battle of Worcester. In 1653, Oliver Cromwell, the most prominent military and political leader in the nation, seized power and declared himself Lord Protector (effectively becoming a military dictator, but refusing the title of king). Cromwell ruled until his death in 1658, when he was succeeded by his son Richard. The new Lord Protector had little interest in governing; he soon resigned. The lack of clear leadership led to civil and military unrest, and for a popular desire to restore the monarchy. In 1660, the monarchy was restored and Charles II returned to Britain.",
+        "doc_type": "golden",
+        "sub_answer": "Oliver Cromwell"
+      },
+      {
+        "think": "Now that I know Oliver Cromwell was the non-royal ruler, I need to determine who was the first person he buried in Westminster Abbey.",
+        "sub_question": "Oliver Cromwell began buring national figures in the abbey starting with whom?",
+        "retrieval": [],
+        "doc": "Subsequently, it became one of Britain's most significant honours to be buried or commemorated in the abbey. The practice of burying national figures in the abbey began under Oliver Cromwell with the burial of Admiral Robert Blake in 1657. The practice spread to include generals, admirals, politicians, doctors and scientists such as Isaac Newton, buried on 4 April 1727, and Charles Darwin, buried 26 April 1882. Another was William Wilberforce who led the movement to abolish slavery in the United Kingdom and the Plantations, buried on 3 August 1833. Wilberforce was buried in the north transept, close to his friend, the former Prime Minister, William Pitt.[citation needed]",
+        "doc_type": "golden",
+        "sub_answer": "Admiral Robert Blake"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 28
+    }
+  },
+  {
+    "id": "6149_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      6149
+    ],
+    "main_question": "When did the writer of the song You Are My Home play at Shea Stadium?",
+    "main_answer": "July 16 and 18 of 2008",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine when the writer of 'You Are My Home' played at Shea Stadium, I first need to identify who wrote the song.",
+        "sub_question": "who made the song you are my home",
+        "retrieval": [],
+        "doc": "``You're My Home ''is a single by Billy Joel. It was originally on Billy Joel's 1973 album Piano Man, and also appears on Songs in the Attic (1981), The Ultimate Collection (2000), The Essential Billy Joel (2001) and 12 Gardens Live (2006). The song appears as a B - side on`` Piano Man'' and ``All My Life ''singles. The song was also covered by Helen Reddy on her album Love Song for Jeffrey, which was released as the flipside of her`` Keep On Singing'' single. It was also recorded by Sami Jo Cole on her album Sami Jo produced by Jimmy Bowen.",
+        "doc_type": "golden",
+        "sub_answer": "Billy Joel"
+      },
+      {
+        "think": "Now that I know Billy Joel wrote the song, I can find out when he performed at Shea Stadium to answer the main question.",
+        "sub_question": "when did Billy Joel play at shea stadium",
+        "retrieval": [],
+        "doc": "Live at Shea Stadium: The Concert is a CD and DVD music compilation of songs performed by American singer / songwriter Billy Joel during two concerts at Shea Stadium in New York City on July 16 and 18 of 2008. It was released on March 8, 2011. The film was produced by Jon Small, Joel's former bandmate in the 1960s groups The Hassles and Attila.",
+        "doc_type": "golden",
+        "sub_answer": "July 16 and 18 of 2008"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 29
+    }
+  },
+  {
+    "id": "19269_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19269
+    ],
+    "main_question": "What's the oldest football club in the country for Revolution's Orphans?",
+    "main_answer": "Hamilton Football Club",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the oldest football club in the country for Revolution's Orphans, I first need to identify which country is referred to as 'Revolution's Orphans'.",
+        "sub_question": "Which was the country for Revolution's Orphans?",
+        "retrieval": [],
+        "doc": "Revolution's Orphans is a 1979 Canadian short film. Directed by John N. Smith, \"Revolution's Orphans\" is about a man who flees Hungary, with his daughter Clara, for Canada as the 1956 Hungarian Revolution happens. They feel regret for abandoning their homeland, until Clara's uncle Janos arrives.",
+        "doc_type": "golden",
+        "sub_answer": "Canada"
+      },
+      {
+        "think": "Now that I know the country is Canada, I can proceed to find the oldest football club in Canada to answer the main question.",
+        "sub_question": "What is the oldest football club in Canada ?",
+        "retrieval": [],
+        "doc": "The first written account of a game played was on October 15, 1862, on the Montreal Cricket Grounds. It was between the First Battalion Grenadier Guards and the Second Battalion Scots Fusilier Guards resulting in a win by the Grenadier Guards 3 goals, 2 rouges to nothing.[citation needed] In 1864, at Trinity College, Toronto, F. Barlow Cumberland, Frederick A. Bethune, and Christopher Gwynn, one of the founders of Milton, Massachusetts, devised rules based on rugby football. The game gradually gained a following, with the Hamilton Football Club formed on November 3, 1869, (the oldest football club in Canada). Montreal formed a team April 8, 1872, Toronto was formed on October 4, 1873, and the Ottawa FBC on September 20, 1876.",
+        "doc_type": "golden",
+        "sub_answer": "Hamilton Football Club"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 30
+    }
+  },
+  {
+    "id": "17657_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      17657
+    ],
+    "main_question": "Who was the first emperor of the ancient country where Yuan Xikun was born?",
+    "main_answer": "Qin Shi Huang",
+    "main_answer_aliases": [
+      "Zhao Zheng"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the first emperor of the ancient country where Yuan Xikun was born, I first need to identify the birthplace of Yuan Xikun.",
+        "sub_question": "Where was Yuan Xikun born?",
+        "retrieval": [],
+        "doc": "Yuan Xikun (born 1944 in Kunming, Yunnan Province) is a Chinese visual artist and environmental activist. In 2011, Yuan proposed building a giant sculpture composed of sand collected from five of earth's continents and water from its Arctic and Antarctic regions to draw attention to ozone depletion and climate change.",
+        "doc_type": "golden",
+        "sub_answer": "Kunming"
+      },
+      {
+        "think": "Now that I know Yuan Xikun was born in Kunming, I need to identify the country associated with Kunming to proceed further.",
+        "sub_question": "What country has the list of tallest buildings in Kunming?",
+        "retrieval": [],
+        "doc": "This list of tallest buildings in Kunming ranks skyscrapers in Kunming, Yunnan, China by height. the tallest buildings in Kunming are the twin towers at Wanda Plaza (Fanya International Finance Building North/South). Before that, the 150-meter (492-foot) Kai Wah Plaza A dominated the skyline for many years.",
+        "doc_type": "golden",
+        "sub_answer": "China"
+      },
+      {
+        "think": "With Kunming being in China, I now need to find out who the first emperor of ancient China was to answer the main question.",
+        "sub_question": "who was the first emperor of ancient China",
+        "retrieval": [],
+        "doc": "Qin Shi Huang (Chinese: 秦始皇; literally: ``First Emperor of Qin '', pronunciation (help info); 18 February 259 BC -- 10 September 210 BC) was the founder of the Qin dynasty and was the first emperor of a unified China. He was born Ying Zheng (嬴政) or Zhao Zheng (趙政), a prince of the state of Qin. He became Zheng, the King of Qin (秦王政) when he was thirteen, then China's first emperor when he was 38 after the Qin had conquered all of the other Warring States and unified all of China in 221 BC. Rather than maintain the title of`` king'' (王 wáng) borne by the previous Shang and Zhou rulers, he ruled as the First Emperor (始皇帝) of the Qin dynasty from 220 to 210 BC. His self - invented title ``emperor ''(皇帝 huángdì), as indicated by his use of the word`` First'', would continue to be borne by Chinese rulers for the next two millennia.",
+        "doc_type": "golden",
+        "sub_answer": "Qin Shi Huang"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 31
+    }
+  },
+  {
+    "id": "2129_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      2129
+    ],
+    "main_question": "In which county is WBNQ located?",
+    "main_answer": "Hennepin County",
+    "main_answer_aliases": [
+      "Hennepin County, Minnesota"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the county where WBNQ is located, I first need to identify the city where WBNQ is based.",
+        "sub_question": "What city is WBNQ located?",
+        "retrieval": [],
+        "doc": "WBNQ first signed on the air as WJBC-FM in the late 1940s. It was the practice among the early FM stations to simply add FM to the \"sister\" AM call letters and simulcast programming. After the call letter change to WBNQ in the 1960s, the station aired a home-grown easy listening/beautiful music automated format recorded at the old studio site above the Castle Theater in downtown Bloomington. In August 1972 WBNQ became an oldies station using the Draper-Blore Olde Golde syndicated format, then changed to the Drake-Chenault Solid Gold format in 1974 and evolved Top 40 using Drake-Chenault's XT-40 format in late spring 1975. In the spring 1976 Arbitron, using Drake-Chenault's XT-40 format, WBNQ attained its highest ever 12+ share of 24.3%, making it one of the highest-rated FM stations in the U.S. at that time. In 1976 Denny Adkins, the operations director of WBNQ, joined Drake-Chenault as a programming consultant working with their client stations on format presentation, promotion and community involvement. Adkins rose through the ranks at D-C, becoming president in 1985.",
+        "doc_type": "golden",
+        "sub_answer": "Bloomington"
+      },
+      {
+        "think": "Now that I know WBNQ is located in Bloomington, I need to find out which county Bloomington is in to answer the main question.",
+        "sub_question": "Where is Bloomington located?",
+        "retrieval": [],
+        "doc": "Bush Lake is located in the southwest corner of the Minneapolis suburb of Bloomington, Minnesota, near its border with Eden Prairie in Hennepin County. It has an area of and a maximum depth of . The lake contains many fish, but primarily Bluegill, Northern Pike, Pumpkinseed Sunfish, Yellow Bullhead, Yellow Perch.",
+        "doc_type": "golden",
+        "sub_answer": "Hennepin County"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 32
+    }
+  },
+  {
+    "id": "974_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      974
+    ],
+    "main_question": "How many symbols are the same in the beginning of ASCII and the dominant scheme for internal processing?",
+    "main_answer": "128 symbols",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To compare the symbols at the beginning of ASCII and the dominant internal processing scheme, I first need to identify what the dominant scheme is.",
+        "sub_question": "What is the dominant scheme for internal processing?",
+        "retrieval": [],
+        "doc": "Unicode has become the dominant scheme for internal processing and storage of text. Although a great deal of text is still stored in legacy encodings, Unicode is used almost exclusively for building new information processing systems. Early adopters tended to use UCS-2 (the fixed-width two-byte precursor to UTF-16) and later moved to UTF-16 (the variable-width current standard), as this was the least disruptive way to add support for non-BMP characters. The best known such system is Windows NT (and its descendants, Windows 2000, Windows XP, Windows Vista and Windows 7), which uses UTF-16 as the sole internal character encoding. The Java and .NET bytecode environments, Mac OS X, and KDE also use it for internal representation. Unicode is available on Windows 95 through Microsoft Layer for Unicode, as well as on its descendants, Windows 98 and Windows ME.",
+        "doc_type": "golden",
+        "sub_answer": "Unicode"
+      },
+      {
+        "think": "Now that I know the dominant scheme is Unicode, I can compare the initial symbols of ASCII and Unicode to determine how many are the same.",
+        "sub_question": "How many of the symbols are the same in the beginning of the ASCII and Unicode ?",
+        "retrieval": [],
+        "doc": "ASCII was incorporated into the Unicode character set as the first 128 symbols, so the 7-bit ASCII characters have the same numeric codes in both sets. This allows UTF-8 to be backward compatible with 7-bit ASCII, as a UTF-8 file containing only ASCII characters is identical to an ASCII file containing the same sequence of characters. Even more importantly, forward compatibility is ensured as software that recognizes only 7-bit ASCII characters as special and does not alter bytes with the highest bit set (as is often done to support 8-bit ASCII extensions such as ISO-8859-1) will preserve UTF-8 data unchanged.",
+        "doc_type": "golden",
+        "sub_answer": "128 symbols"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 33
+    }
+  },
+  {
+    "id": "13562_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      13562
+    ],
+    "main_question": "On what dates was the 2018 WGC-Bridgestone Invitational in Akron, in the state where the Adena Court Apartments are located?",
+    "main_answer": "August 2 -- 5",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the dates of the 2018 WGC-Bridgestone Invitational in Akron, I first need to identify the state where Adena Court Apartments are located, as this will help confirm the tournament's location.",
+        "sub_question": "In which state is Adena Court Apartments located?",
+        "retrieval": [],
+        "doc": "The Adena Court Apartments are an apartment building in downtown Zanesville, Ohio, United States. Built in 1906, the apartments are a well-preserved example of the Colonial Revival style of architecture of the early twentieth century.",
+        "doc_type": "golden",
+        "sub_answer": "Ohio"
+      },
+      {
+        "think": "Now that I know the state is Ohio, I can focus on finding the specific dates of the golf tournament held in Akron, Ohio, in 2018.",
+        "sub_question": "when is the golf tournament in akron Ohio",
+        "retrieval": [],
+        "doc": "The 2018 WGC - Bridgestone Invitational was a professional golf tournament held August 2 -- 5 on the South Course of Firestone Country Club in Akron, Ohio. It was the 20th WGC - Bridgestone Invitational tournament, and the third of the World Golf Championships events in 2018.",
+        "doc_type": "golden",
+        "sub_answer": "August 2 -- 5"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 34
+    }
+  },
+  {
+    "id": "19668_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19668
+    ],
+    "main_question": "When does the majority of rainfall happen in the place where Mexico won its independence from Spain?",
+    "main_answer": "June to October",
+    "main_answer_aliases": [
+      "June",
+      "Jun"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine when the majority of rainfall occurs in the place where Mexico won its independence from Spain, I first need to identify the location where this historical event took place.",
+        "sub_question": "where did mexico win its independence from spain",
+        "retrieval": [],
+        "doc": "On September 27, 1821 the Army of the Three Guarantees entered Mexico City, and the following day Iturbide proclaimed the independence of the Mexican Empire, as New Spain was henceforth to be called. The Treaty of Córdoba was not ratified by the Spanish Cortes. Iturbide included a special clause in the treaty that left open the possibility for a criollo monarch to be appointed by a Mexican congress if no suitable member of the European royalty would accept the Mexican crown. Half of the new government employees appointed were Iturbide's followers.",
+        "doc_type": "golden",
+        "sub_answer": "Mexico City"
+      },
+      {
+        "think": "Now that I know Mexico City is the location, I need to find out the rainy season there to answer the main question.",
+        "sub_question": "When does the majority of the rain fall in Mexico City ?",
+        "retrieval": [],
+        "doc": "The area receives about 820 millimetres (32.3 in) of annual rainfall, which is concentrated from June through September/October with little or no precipitation the remainder of the year. The area has two main seasons. The rainy season runs from June to October when winds bring in tropical moisture from the sea. The dry season runs from November to May, when the air is relatively drier. This dry season subdivides into a cold period and a warm period. The cold period spans from November to February when polar air masses push down from the north and keep the air fairly dry. The warm period extends from March to May when tropical winds again dominate but do not yet carry enough moisture for rain.",
+        "doc_type": "golden",
+        "sub_answer": "June to October"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 35
+    }
+  },
+  {
+    "id": "1620_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1620
+    ],
+    "main_question": "What year did the war Scott Speicher fought in start?",
+    "main_answer": "2 August 1990",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the start year of the war Scott Speicher fought in, I first need to identify which war he participated in.",
+        "sub_question": "What war did Scott Speicher fight in?",
+        "retrieval": [],
+        "doc": "Michael Scott Speicher (12 July 1957 – January 17, 1991) was a United States Navy pilot who was shot down over Iraq during the Persian Gulf War becoming the first American combat casualty of the war. His fate was not known until 2 August 2009 when the Navy reported that Speicher's remains were found in Iraq by United States Marines.",
+        "doc_type": "golden",
+        "sub_answer": "Gulf War"
+      },
+      {
+        "think": "Now that I know Scott Speicher fought in the Gulf War, I need to find out when this war began to answer the main question.",
+        "sub_question": "What year did Gulf War start?",
+        "retrieval": [],
+        "doc": "The Gulf War (2 August 199028 February 1991), codenamed Operation Desert Shield (2 August 199017 January 1991) for operations leading to the buildup of troops and defense of Saudi Arabia and Operation Desert Storm (17 January 199128 February 1991) in its combat phase, was a war waged by coalition forces from 35 nations led by the United States against Iraq in response to Iraq's invasion and annexation of Kuwait arising from oil pricing and production disputes. The war is also known under other names, such as the Persian Gulf War, First Gulf War, Gulf War I, Kuwait War, First Iraq War or Iraq War, before the term \"Iraq War\" became identified instead with the post-2003 Iraq War.",
+        "doc_type": "golden",
+        "sub_answer": "2 August 1990"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 36
+    }
+  },
+  {
+    "id": "1132_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1132
+    ],
+    "main_question": "Which lady gave birth to the performer of the album If I Can't Dance?",
+    "main_answer": "Janet Ellis",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out who gave birth to the performer of the album *If I Can't Dance*, I first need to identify the performer of that album.",
+        "sub_question": "To which performer does the album If I Can't Dance belong?",
+        "retrieval": [],
+        "doc": "\"If I Can't Dance\" is a song by British recording artist Sophie Ellis-Bextor for her third studio album, \"Trip the Light Fantastic\" (2007). It was written by Ellis-Bextor and Dimitri Tikovoi, while production was handled by Tikovi, with additional production by Brio Taliaferro and Jeremy Wheatley. It is a dance-pop, electropop and disco song and a reference to the famous misquotation of Emma Goldman, \"If I can't dance, I don't want to be part of your revolution\", which nevertheless summarizes what she did say.",
+        "doc_type": "golden",
+        "sub_answer": "Sophie Ellis-Bextor"
+      },
+      {
+        "think": "Now that I know the performer is Sophie Ellis-Bextor, I need to determine which lady is her mother to answer the main question.",
+        "sub_question": "Which lady gave birth to Sophie Ellis-Bextor ?",
+        "retrieval": [],
+        "doc": "Ellis-Bextor was born in London to Janet Ellis, who was later a presenter on BBC's children's television programmes \"Blue Peter\" and \"Jigsaw\", and Robin Bextor, a film producer and director: they separated when she was four. As a child, Ellis-Bextor occasionally appeared on \"Blue Peter\" alongside her mother, who presented the programme.",
+        "doc_type": "golden",
+        "sub_answer": "Janet Ellis"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 37
+    }
+  },
+  {
+    "id": "15661_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      15661
+    ],
+    "main_question": "What followed the company that included the first British settlers in Edward Bok's country of citizenship?",
+    "main_answer": "Somers Isles Company",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine what followed the company of the first British settlers in Edward Bok's country of citizenship, I first need to identify his country of citizenship.",
+        "sub_question": "What country is Edward Bok a citizen of?",
+        "retrieval": [],
+        "doc": "Edward William Bok (born Eduard Willem Gerard Cesar Hidde Bok) (October 9, 1863 – January 9, 1930) was a Dutch-born American editor and Pulitzer Prize-winning author. He was editor of the \"Ladies' Home Journal\" for 30 years (1889-1919). Bok is credited with coining the term \"living room\" as the name for a room of a house that had commonly been called the \"parlor\" or \"drawing room\". He also created Bok Tower Gardens in central Florida.",
+        "doc_type": "golden",
+        "sub_answer": "America"
+      },
+      {
+        "think": "Now that I know Edward Bok is a citizen of America, I need to identify the first British settlers in America to establish the company in question.",
+        "sub_question": "who were the first british settlers in America",
+        "retrieval": [],
+        "doc": "In 1607, Jamestown, Virginia was founded by the London Company (also known as the Virginia Company). In Newfoundland, a chartered company known as the Society of Merchant Venturers established a permanent settlement at Cuper's Cove, from 1610. St. George's, Bermuda was founded by the Virginia Company, in 1612.",
+        "doc_type": "golden",
+        "sub_answer": "the London Company"
+      },
+      {
+        "think": "With the knowledge that the London Company was the first British settlers' company in America, I need to find out what followed this company to answer the main question.",
+        "sub_question": "What followed the London Company?",
+        "retrieval": [],
+        "doc": "The Somers Isles Company (fully, The London Company of The Somers Isles or the Company of The Somers Isles) was formed in 1615 to operate the English colony of the Somers Isles, also known as Bermuda, as a commercial venture. It held a royal charter for Bermuda until 1684, when it was dissolved, and the Crown assumed responsibility for the administration of Bermuda as a royal colony.",
+        "doc_type": "golden",
+        "sub_answer": "Somers Isles Company"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 38
+    }
+  },
+  {
+    "id": "4236_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      4236
+    ],
+    "main_question": "When did the Muslim conquest of the region Carthage and Tunisia are located in take place?",
+    "main_answer": "mid-7th to early 8th centuries",
+    "main_answer_aliases": [
+      "8th century"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine when the Muslim conquest occurred in the region of Carthage and Tunisia, I first need to identify the broader geographical area they are part of.",
+        "sub_question": "Carthage and Tunisia are in what general area?",
+        "retrieval": [],
+        "doc": "Greek figural mosaics could have been copied or adapted paintings, a far more prestigious artform, and the style was enthusiastically adopted by the Romans so that large floor mosaics enriched the floors of Hellenistic villas and Roman dwellings from Britain to Dura-Europos. Most recorded names of Roman mosaic workers are Greek, suggesting they dominated high quality work across the empire; no doubt most ordinary craftsmen were slaves. Splendid mosaic floors are found in Roman villas across North Africa, in places such as Carthage, and can still be seen in the extensive collection in Bardo Museum in Tunis, Tunisia.",
+        "doc_type": "golden",
+        "sub_answer": "North Africa"
+      },
+      {
+        "think": "Now that I know Carthage and Tunisia are in North Africa, I can focus on finding the time period of the Muslim conquest specific to this region.",
+        "sub_question": "What time period did the Muslim conquest of North Africa take place?",
+        "retrieval": [],
+        "doc": "The Byzantine Empire ruled the northern shores of the Sahara from the 5th to the 7th centuries. After the Muslim conquest of Arabia (Arabian peninsula) the Muslim conquest of North Africa began in the mid-7th to early 8th centuries, Islamic influence expanded rapidly on the Sahara. By the end of 641 all of Egypt was in Muslim hands. The trade across the desert intensified. A significant slave trade crossed the desert. It has been estimated that from the 10th to 19th centuries some 6,000 to 7,000 slaves were transported north each year.",
+        "doc_type": "golden",
+        "sub_answer": "mid-7th to early 8th centuries"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 39
+    }
+  },
+  {
+    "id": "6074_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      6074
+    ],
+    "main_question": "What administrative territorial entity contains the city where Edward F. Moore died?",
+    "main_answer": "Dorchester County",
+    "main_answer_aliases": [
+      "Dorchester County, Maryland"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the administrative territorial entity, I first need to identify the city where Edward F. Moore died.",
+        "sub_question": "Where did Edward F. Moore die?",
+        "retrieval": [],
+        "doc": "Edward Forrest Moore (November 23, 1925 in Baltimore, Maryland – June 14, 2003 in Madison, Wisconsin) was an American professor of mathematics and computer science, the inventor of the Moore finite state machine, and an early pioneer of artificial life.",
+        "doc_type": "golden",
+        "sub_answer": "Madison"
+      },
+      {
+        "think": "Now that I know the city is Madison, I need to find out which administrative territorial entity contains Madison.",
+        "sub_question": "What is the administrative territorial entity where Madison is located?",
+        "retrieval": [],
+        "doc": "Madison is an unincorporated community and census-designated place (CDP) in Dorchester County, Maryland, United States. The population was 204 at the 2010 census.",
+        "doc_type": "golden",
+        "sub_answer": "Dorchester County"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 40
+    }
+  },
+  {
+    "id": "8384_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      8384
+    ],
+    "main_question": "Who is the minister of local government in the country where Mimosa mine is located?",
+    "main_answer": "Hon July Moyo",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the minister of local government for the country where Mimosa mine is located, I first need to identify the country where the mine is situated.",
+        "sub_question": "In which country is the Mimosa mine located?",
+        "retrieval": [],
+        "doc": "The Mimosa mine is a large open pit mine located in the southern part of Zimbabwe in the Midlands Province. Mimosa represents one of the largest platinum reserves in Southern Africa having estimated reserves of 7.9 million oz of platinum. The mine produces around 200,000 oz of platinum/year.",
+        "doc_type": "golden",
+        "sub_answer": "Zimbabwe"
+      },
+      {
+        "think": "Now that I know the Mimosa mine is in Zimbabwe, I need to find out who holds the position of minister of local government there to answer the main question.",
+        "sub_question": "who is the minister of local government in Zimbabwe",
+        "retrieval": [],
+        "doc": "The Ministry of Local Government, Rural and Urban Development is a government ministry, responsible for local government in Zimbabwe. The incumbent minister is Hon July Moyo and the deputy minister is Sesel Zvidzai. It oversees:",
+        "doc_type": "golden",
+        "sub_answer": "Hon July Moyo"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 41
+    }
+  },
+  {
+    "id": "17521_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      17521
+    ],
+    "main_question": "Who did Sweeney Todd meet on the ship back to the birthplace of Celtic Requiem's performer?",
+    "main_answer": "Anthony Hope",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out who Sweeney Todd met on the ship, I first need to identify the performer of *Celtic Requiem*, as their birthplace is part of the question's context.",
+        "sub_question": "Who performed Celtic Requiem?",
+        "retrieval": [],
+        "doc": "A Celtic Requiem (Requiem for Jenny Jones) is a requiem by the English composer John Tavener, written in 1969. It is written for soprano, children's choir and orchestra.",
+        "doc_type": "golden",
+        "sub_answer": "John Tavener"
+      },
+      {
+        "think": "Now that I know John Tavener performed *Celtic Requiem*, I need to determine his birthplace to understand the destination of the ship mentioned in the main question.",
+        "sub_question": "Where was John Tavener born?",
+        "retrieval": [],
+        "doc": "Ivan Moody is a composer born in London in 1964. He studied composition with at London University, York University and privately with John Tavener. He also studied Orthodox theology at the University of Joensuu in Finland. Moody is active as a conductor, having directed ensembles such as Voces Angelicae, the Kastalsky Chamber Choir (Britain), Capilla Peña Florida (Spain), Cappella Romana (USA), the Choir of the Cathedral of St George, Novi Sad, (Serbia) the KotorArt Festival Choir (Montenegro), the Orthodox Choir of the University of Joensuu (Finland) and Ensemble Alpha (Portugal); and as a widely published musicologist. His research interests include the music of Eastern Europe, especially 20th century and contemporary music from Russia and the Balkans, the music of the Orthodox Church in the modern era, music and spirituality, music as theology, Serbian church music, the aesthetics of modernism and post-modernism and their intersection with Orthodox church music and the musical culture of the Mediterranean.",
+        "doc_type": "golden",
+        "sub_answer": "London"
+      },
+      {
+        "think": "With the knowledge that John Tavener was born in London, I can now focus on identifying who Sweeney Todd met on the ship back to London to answer the main question.",
+        "sub_question": "who did sweeney todd meet on the ship back to London",
+        "retrieval": [],
+        "doc": "In 1846, Benjamin Barker, a barber, arrives in London, accompanied by sailor Anthony Hope. Fifteen years earlier, he was falsely convicted and exiled by the corrupt Judge Turpin, who lusted after Barker's wife Lucy. Barker adopts the alias ``Sweeney Todd ''and returns to his old Fleet Street shop, situated above Mrs. Nellie Lovett's meat pie shop, where she sells the`` worst pies in London''. Lovett tells him that Turpin raped Lucy, who then poisoned herself with arsenic. The couple's daughter, Johanna, is now Turpin's ward. Todd vows revenge, and re-opens his barber shop after Mrs. Lovett, who loves him unrequitedly, presents him with his old straight razors. Anthony becomes enamored with Johanna, but is caught by Turpin and driven away by his henchman, Beadle Bamford.",
+        "doc_type": "golden",
+        "sub_answer": "Anthony Hope"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 42
+    }
+  },
+  {
+    "id": "1701_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1701
+    ],
+    "main_question": "Who's sibling of the singer who sang this old house in the 1950s?",
+    "main_answer": "Betty Clooney",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the sibling of the singer who sang 'This Old House' in the 1950s, I first need to identify the singer of that song during that time.",
+        "sub_question": "who sang this old house in the 1950s",
+        "retrieval": [],
+        "doc": "``This Ole House ''(sometimes written`` This Old House'') is a popular song written by Stuart Hamblen, and published in 1954. Rosemary Clooney's version reached the top of the popular music charts in both the US and the UK in 1954. The song again topped the UK chart in 1981 in a recording by Shakin 'Stevens.",
+        "doc_type": "golden",
+        "sub_answer": "Rosemary Clooney"
+      },
+      {
+        "think": "Now that I know Rosemary Clooney sang the song, I need to determine who her sibling is to answer the main question.",
+        "sub_question": "Who is Rosemary Clooney's sibling?",
+        "retrieval": [],
+        "doc": "Betty Clooney (April 12, 1931 – August 5, 1976) was an American singer, TV presenter and pioneer who briefly rose to fame in the 1950s with sister Rosemary Clooney. She led a very brief solo career, with songs like \"Kiki\" and \"You're All I See\". She married actor and musician Pupi Campo in 1955, and they had four children.",
+        "doc_type": "golden",
+        "sub_answer": "Betty Clooney"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 43
+    }
+  },
+  {
+    "id": "2965_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      2965
+    ],
+    "main_question": "How long does the biggest celebration last in Wally Warning's birthplace?",
+    "main_answer": "a month",
+    "main_answer_aliases": [
+      "month",
+      "months",
+      "Month"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the duration of the biggest celebration in Wally Warning's birthplace, I first need to identify where Wally Warning was born.",
+        "sub_question": "Where was Wally Warning born?",
+        "retrieval": [],
+        "doc": "Ewald \"Wally\" Warning (born in Aruba, Netherlands Antilles) is a roots, reggae, ragga, gospel and Latin singer living in Munich, Germany. He is the son of Surinamese parents. At the age of 17 he moved from Aruba to the Netherlands, where he had a hit single with \"The World Needs Love\" in the early 1980s and around 1990 to Germany. He put his singing career on hold while he played bass guitar in touring bands with Sam & Dave and Lightnin' Hopkins, but restarted his solo career in the 2000s. He reached a broad audience when he produced and sang the radio summer hit \"No Monkey\". The song reached the top thirty in both Austria and Germany.",
+        "doc_type": "golden",
+        "sub_answer": "Aruba"
+      },
+      {
+        "think": "Now that I know Wally Warning was born in Aruba, I need to find out how long the biggest celebration in Aruba lasts to answer the main question.",
+        "sub_question": "How long does Aruba 's biggest celebration last?",
+        "retrieval": [],
+        "doc": "Carnival means weeks of events that bring colourfully decorated floats, contagiously throbbing music, luxuriously costumed groups of celebrants of all ages, King and Queen elections, electrifying jump-ups and torchlight parades, the Jouvert morning: the Children's Parades and finally the Grand Parade. Aruba's biggest celebration is a month-long affair consisting of festive \"jump-ups\" (street parades), spectacular parades and creative contests. Music and flamboyant costumes play a central role, from the Queen elections to the Grand Parade. Street parades continue in various districts throughout the month, with brass band, steel drum and roadmarch tunes. On the evening before Lent, Carnival ends with the symbolic burning of King Momo.",
+        "doc_type": "golden",
+        "sub_answer": "a month"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 44
+    }
+  },
+  {
+    "id": "5344_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      5344
+    ],
+    "main_question": "What is the language Avedik is published in, an instance of?",
+    "main_answer": "Unicode block",
+    "main_answer_aliases": [
+      "script"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine what Avedik is an instance of, I first need to identify the language it is published in.",
+        "sub_question": "In what language is Avedik?",
+        "retrieval": [],
+        "doc": "Avedik (in Armenian Աւետիք) is a Lebanese-Armenian publication published by the Armenian Catholic Patriarchate in Lebanon and the official organ of the Armenian Catholic Church worldwide.",
+        "doc_type": "golden",
+        "sub_answer": "Armenian"
+      },
+      {
+        "think": "Now that I know Avedik is in Armenian, I need to find out what category or classification Armenian falls under to answer the main question.",
+        "sub_question": "What is Armenian an instance of?",
+        "retrieval": [],
+        "doc": "Armenian is a Unicode block containing characters for writing the Armenian language, both the traditional Western Armenian and reformed Eastern Armenian orthographies. Five Armenian ligatures are encoded in the Alphabetic Presentation Forms block.",
+        "doc_type": "golden",
+        "sub_answer": "Unicode block"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 45
+    }
+  },
+  {
+    "id": "526_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      526
+    ],
+    "main_question": "When did the 2005 Masters tournament winner make his first hole in one?",
+    "main_answer": "at the age of six",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine when the 2005 Masters tournament winner made his first hole in one, I first need to identify who won the tournament that year.",
+        "sub_question": "Who won the 2005 Masters Tournament?",
+        "retrieval": [],
+        "doc": "Tiger Woods, 29, won his fourth green jacket on the first hole of a playoff with Chris DiMarco. Rain was a factor the whole week, and delayed much of the play. The purse was $7.0 million with a winner's share of $1.26 million. It was the ninth of Woods' fifteen major championships.",
+        "doc_type": "golden",
+        "sub_answer": "Tiger Woods"
+      },
+      {
+        "think": "Now that I know Tiger Woods won the 2005 Masters, I need to find out when he made his first hole in one to answer the main question.",
+        "sub_question": "when did Tiger Woods make his first hole in one",
+        "retrieval": [],
+        "doc": "Woods has hit a combined total eighteen holes - in - one in the course of his lifetime -- his first at the age of six. Three have come in PGA Tour competition, at the 1996 Greater Milwaukee Open, 1997 Phoenix Open, and 1998 Sprint International.",
+        "doc_type": "golden",
+        "sub_answer": "at the age of six"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 46
+    }
+  },
+  {
+    "id": "3813_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      3813
+    ],
+    "main_question": "Who is the spouse of the performer of Dancin' Fool?",
+    "main_answer": "Gail Zappa",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the spouse of the performer of *Dancin' Fool*, I first need to identify who performed the song.",
+        "sub_question": "Who performed Dancin' Fool?",
+        "retrieval": [],
+        "doc": "\"Dancin' Fool\" is a song by Frank Zappa from his 1979 album \"Sheik Yerbouti\". It was the first of two singles released from the album, followed by the second single \"Bobby Brown (Goes Down).\" The song premiered on stage on the 30th of October 1977 (as can be heard on the Halloween '77 boxset released in 2017). Much like \"Zoot Allures'\" closing track \"Disco Boy\", it mocks the disco culture of the 1970s, but unlike \"Disco Boy\", the song directly focuses on the dancing aspect of the culture. Specifically, the character Zappa is singing as cannot help but dance, despite how awful he is at it. He refers to his dancing as \"social suicide\" and says, \"The beat goes on and I'm so wrong.\" He mentions as part of the reason for his bad dancing that, \"One of my legs is shorter than the other,\" a reference to a severe injury Zappa sustained at the Rainbow Theatre in 1971. Soon, it inspired crazy dance moves to mock disco dancers, and this was especially relevant, as disco was on its decline. \"Dancin' Fool\" charted at 45 on the U.S. charts, making it Zappa's 2nd highest charting single, behind his 1982 song, \"Valley Girl\". The song was nominated for the Grammy award for \"Best Male Vocal\", but did not win. It was included on Zappa's best of compilation, \"Strictly Commercial\".",
+        "doc_type": "golden",
+        "sub_answer": "Frank Zappa"
+      },
+      {
+        "think": "Now that I know Frank Zappa performed *Dancin' Fool*, I can look up his spouse to answer the main question.",
+        "sub_question": "Who is Frank Zappa's spouse?",
+        "retrieval": [],
+        "doc": "Adelaide Gail Zappa ( Sloatman; January 1, 1945 – October 7, 2015) was the wife of musician and composer Frank Zappa and the trustee of the Zappa Family Trust. They met in Los Angeles in 1966 and married while she was pregnant with their first child, Moon, followed by Dweezil, Ahmet and Diva.",
+        "doc_type": "golden",
+        "sub_answer": "Gail Zappa"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 47
+    }
+  },
+  {
+    "id": "3512_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      3512
+    ],
+    "main_question": "Who performed the character based on the Enlightenment thinker who supported the idea of separation of powers?",
+    "main_answer": "Terry O'Quinn",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out who performed the character based on the Enlightenment thinker, I first need to identify which thinker is known for supporting the idea of separation of powers.",
+        "sub_question": "Which Enlightenment thinker supported the idea of separation of powers?",
+        "retrieval": [],
+        "doc": "During the Age of Enlightenment, philosophers such as John Locke advocated the principle in their writings, whereas others, such as Thomas Hobbes, strongly opposed it. Montesquieu was one of the foremost supporters of separating the legislature, the executive, and the judiciary. His writings considerably influenced the opinions of the framers of the United States Constitution.",
+        "doc_type": "golden",
+        "sub_answer": "John Locke"
+      },
+      {
+        "think": "Now that I know John Locke is the Enlightenment thinker in question, I need to find out which actor portrayed him in a performance.",
+        "sub_question": "Who performed John Locke?",
+        "retrieval": [],
+        "doc": "John Locke is a fictional character played by Terry O'Quinn on the ABC television series \"Lost\". He is named after the English philosopher of the same name. In 2007, O'Quinn won the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series for his portrayal of Locke.",
+        "doc_type": "golden",
+        "sub_answer": "Terry O'Quinn"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 48
+    }
+  },
+  {
+    "id": "5835_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      5835
+    ],
+    "main_question": "Who became the CEO of the record label of Hurts?",
+    "main_answer": "Peter Edge",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine who became the CEO of Hurts' record label, I first need to identify which record label the band Hurts is signed to.",
+        "sub_question": "What is the record label for Hurts?",
+        "retrieval": [],
+        "doc": "Happiness is the debut studio album by English synth-pop duo Hurts. It was released on 27 August 2010 by RCA Records. It was preceded by the release of the singles \"Better Than Love\" on 23 May 2010 and \"Wonderful Life\" on 22 August 2010. Collaborators include Jonas Quant and production team The Nexus, as well as a duet with Australian singer Kylie Minogue on the song \"Devotion\". To promote the release of the album, the track \"Happiness\" was made available as a free download via Amazon.co.uk on 1 August 2010.",
+        "doc_type": "golden",
+        "sub_answer": "RCA Records"
+      },
+      {
+        "think": "Now that I know Hurts is signed to RCA Records, I need to find out who currently holds the CEO position at RCA Records.",
+        "sub_question": "Who became the CEO of RCA Records ?",
+        "retrieval": [],
+        "doc": "Doug Morris, who was head of Warner Music Group, then Universal Music, became chairman and CEO of the company on July 1, 2011. Sony Music underwent a restructuring after Morris' arrival. He was joined by L.A. Reid, who became the chairman and CEO of Epic Records. Under Reid, multiple artists from the Jive half of the former RCA/Jive Label Group moved to Epic. Peter Edge became the new CEO of the RCA Records unit. The RCA Music Group closed down Arista, J Records and Jive Records in October 2011, with the artists from those labels being moved to RCA Records.",
+        "doc_type": "golden",
+        "sub_answer": "Peter Edge"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 49
+    }
+  },
+  {
+    "id": "16545_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      16545
+    ],
+    "main_question": "In 1772 who established the first committee of correspondence in Montcalm and Wolfe's author's birth city?",
+    "main_answer": "Samuel Adams",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out who established the first committee of correspondence in the author's birth city, I first need to identify the author of *Montcalm and Wolfe*.",
+        "sub_question": "Who is the author of Montcalm and Wolfe?",
+        "retrieval": [],
+        "doc": "Montcalm and Wolfe () is the sixth volume in Francis Parkman's seven-volume history, \"France and England in North America\", originally published in 1884. It tells the story of the French and Indian War. Its title refers to Louis-Joseph de Montcalm and James Wolfe, the commanding generals of the French and English forces respectively and to whom the book devotes particular attention. Parkman considered the book his masterpiece.",
+        "doc_type": "golden",
+        "sub_answer": "Francis Parkman"
+      },
+      {
+        "think": "Now that I know the author is Francis Parkman, I need to determine his birth city to locate where the committee was established.",
+        "sub_question": "Where was Francis Parkman born?",
+        "retrieval": [],
+        "doc": "The Francis Parkman House is a National Historic Landmark at 50 Chestnut Street, on Beacon Hill in Boston, Massachusetts. Probably designed by Cornelius Coolidge and built in 1824, it is one of a series of fine brick townhouses on Beacon Hill. Its significance lies in its ownership and occupancy by noted historian and horticulturalist Francis Parkman (1823–1893) from 1865 until his death. While living here, Parkman produced a significant portion of his landmark work, \"France and England in North America\", a multi-volume epic history recounting the conflict for control of North America in the 17th and 18th centuries.",
+        "doc_type": "golden",
+        "sub_answer": "Boston"
+      },
+      {
+        "think": "With the birth city identified as Boston, I can now find out who established the first committee of correspondence there in 1772.",
+        "sub_question": "who established the first committee of correspondence in Boston in 1772 and why",
+        "retrieval": [],
+        "doc": "In Massachusetts, in November 1772, Samuel Adams and Dr. Joseph Warren formed a committee in response to the Gaspée Affair and in relation to the recent British decision to have the salaries of the royal governor and judges be paid by the Crown rather than the colonial assembly, which removed the colony of its means of holding public officials accountable to their constituents. In the following months, more than one hundred other committees were formed in the towns and villages of Massachusetts. The Massachusetts committee had its headquarters in Boston and under the leadership of Adams became a model for other Patriot groups. The meeting when establishing the committee gave it the task of stating ``the rights of the colonists, and of this province in particular, as men, as Christians, and as subjects; to communicate and publish the same to the several towns in this province and to the world as the sense of this town. ''",
+        "doc_type": "golden",
+        "sub_answer": "Samuel Adams"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 50
+    }
+  },
+  {
+    "id": "6431_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      6431
+    ],
+    "main_question": "In which direction would you travel to reach Southampton from the city connected to it by rail?",
+    "main_answer": "north-west",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the direction from the connected city back to Southampton, I first need to identify which city lies to the east of Southampton and is connected by rail.",
+        "sub_question": "Heading east from Southampton, what city is connected by rail?",
+        "retrieval": [],
+        "doc": "Southampton is also served by the rail network, which is used both by freight services to and from the docks and passenger services as part of the national rail system. The main station in the city is Southampton Central. Rail routes run east towards Portsmouth, north to Winchester, the Midlands and London, and westwards to Bournemouth, Poole, Dorchester, Weymouth, Salisbury, Bristol and Cardiff. The route to London was opened in 1840 by what was to become the London and South Western Railway Company. Both this and its successor the Southern Railway (UK) played a significant role in the creation of the modern port following their purchase and development of the town's docks.",
+        "doc_type": "golden",
+        "sub_answer": "Portsmouth"
+      },
+      {
+        "think": "Now that I know Portsmouth is the city connected to Southampton by rail, I can determine the direction from Portsmouth back to Southampton.",
+        "sub_question": "In which direction would you travel from Portsmouth to reach Southampton?",
+        "retrieval": [],
+        "doc": "Southampton (i/saʊθˈæmptən, -hæmptən/) is the largest city in the ceremonial county of Hampshire on the south coast of England, and is situated 75 miles (121 km) south-west of London and 19 miles (31 km) north-west of Portsmouth. Southampton is a major port and the closest city to the New Forest. It lies at the northernmost point of Southampton Water at the confluence of the River Test and River Itchen, with the River Hamble joining to the south of the urban area. The city, which is a unitary authority, has an estimated population of 253,651. The city's name is sometimes abbreviated in writing to \"So'ton\" or \"Soton\", and a resident of Southampton is called a Sotonian.",
+        "doc_type": "golden",
+        "sub_answer": "north-west"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 51
+    }
+  },
+  {
+    "id": "6578_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      6578
+    ],
+    "main_question": "How many students attended the university Rolfe D. Mandel works for in the Fall of 2014?",
+    "main_answer": "26,968",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out how many students attended the university where Rolfe D. Mandel works, I first need to identify the institution that employs him.",
+        "sub_question": "Who is the employer of Rolfe D. Mandel?",
+        "retrieval": [],
+        "doc": "Rolfe D. Mandel (born August 25, 1952) is a Distinguished Professor of archaeology in the Department of Anthropology at the University of Kansas as well as Senior Scientist and Executive Director of the Odyssey Geoarchaeological Research Program at the Kansas Geological Survey. Initially trained as a geographer, he has been a major figure in defining the subdiscipline of geoarchaeology and has spent the last thirty years focusing on the effects of geologic processes on the archaeological record. His primary research interests include geoarchaeology, Quaternary soils, geology, paleoecology, and paleoenvironmental reconstruction in the Great Plains region of the United States as well as the Mediterranean. Over the years, Mandel has participated in numerous research projects and has served as an editor to multiple journals and a book. His work has been key in promoting an interdisciplinary approach in archaeology, geology, and geography.",
+        "doc_type": "golden",
+        "sub_answer": "University of Kansas"
+      },
+      {
+        "think": "Now that I know Rolfe D. Mandel works at the University of Kansas, I need to find the total student enrollment there in the Fall of 2014 to answer the main question.",
+        "sub_question": "How many students attended University of Kansas combined in fall of 2014?",
+        "retrieval": [],
+        "doc": "Enrollment at the Lawrence and Edwards campuses was 23,597 students in fall 2014; an additional 3,371 students were enrolled at the KU Medical Center for a total enrollment of 26,968 students across the three campuses. The university overall employed 2,663 faculty members in fall 2012.",
+        "doc_type": "golden",
+        "sub_answer": "26,968"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 52
+    }
+  },
+  {
+    "id": "15528_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      15528
+    ],
+    "main_question": "What is Kang seeking to use against the country where the 3rd astronaut of the Apollo 11 mission is from?",
+    "main_answer": "American nuclear weapons",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine Kang's target, I first need to identify the 3rd astronaut of the Apollo 11 mission who did not go to the moon, as this will lead to the country in question.",
+        "sub_question": "who was the 3rd astronaut of the apollo 11 mission who did not go to the moon",
+        "retrieval": [],
+        "doc": "Michael Collins (born October 31, 1930) (Major General, USAF, Ret.) is an American former astronaut and test pilot. Selected as part of the third group of fourteen astronauts in 1963, he flew into space twice. His first spaceflight was on Gemini 10, in which he and Command Pilot John Young performed two rendezvous with different spacecraft and undertook two extra-vehicular activities (EVAs, also known as spacewalks). His second spaceflight was as the Command Module Pilot for Apollo 11. While he stayed in orbit around the Moon, Neil Armstrong and Buzz Aldrin left in the Lunar Module to make the first manned landing on its surface. He is one of 24 people to have flown to the Moon. Collins was the fourth person, and third American, to perform an EVA; and is the first person to have performed more than one EVA.",
+        "doc_type": "golden",
+        "sub_answer": "Michael Collins"
+      },
+      {
+        "think": "Now that I know the astronaut is Michael Collins, I need to find his country of citizenship to identify the country Kang is targeting.",
+        "sub_question": "What is Michael Collins' country of citizenship?",
+        "retrieval": [],
+        "doc": "Michael Collins (born October 31, 1930) is a former American astronaut, test pilot and major general of the United States Air Force Reserves. Selected as part of the third group of fourteen astronauts in 1963, he flew into space twice. His first spaceflight was on Gemini 10, in which he and Command Pilot John Young performed orbital rendezvous with two different spacecraft and undertook two extravehicular activities (EVAs, also known as spacewalks). His second spaceflight was as the command module pilot for Apollo 11. While he stayed in orbit around the Moon, Neil Armstrong and Buzz Aldrin left in the Apollo Lunar Module to make the first crewed landing on its surface.",
+        "doc_type": "golden",
+        "sub_answer": "the United States"
+      },
+      {
+        "think": "With the country identified as the United States, I now need to find out what Kang is seeking to use against it to answer the main question.",
+        "sub_question": "What is Kang seeking to use against the United States ?",
+        "retrieval": [],
+        "doc": "Kang seeks to use Asher's hostage status as leverage to force U.S. officials to withdraw the Seventh Fleet and U.S. forces from the Korean Peninsula, thus removing American opposition to a North Korean invasion of South Korea. He also seeks to destroy the American nuclear weapons stockpile by detonating them in their respective silos across the country, turning the United States into an irradiated wasteland. To accomplish this, he requires the access codes to a system called Cerberus, which are held by three top government officials, including the President, all of whom are inside the bunker. Asher orders the other two officials to reveal their codes to save their lives, certain that he will not give up his code.",
+        "doc_type": "golden",
+        "sub_answer": "American nuclear weapons"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 53
+    }
+  },
+  {
+    "id": "8003_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      8003
+    ],
+    "main_question": "Why was the country now known as land of morning calm divided at the 38th parallel at the end of wwii?",
+    "main_answer": "it divided the country approximately in half",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To understand why the country now known as 'land of morning calm' was divided at the 38th parallel, I first need to identify which nation carries this nickname.",
+        "sub_question": "which nation is know as land of morning calm",
+        "retrieval": [],
+        "doc": "In North Korea, China, Japan, Vietnam, and Chinese and Vietnamese - speaking areas, Korea as a whole is referred to as Chosŏn (조선, Joseon, (tɕoshʌn),, (朝鲜), Cháoxiǎn, (朝鮮), Chōsen, Triều Tiên (朝鮮) lit. ``(land of the) Morning Calm '').`` Great Joseon'' was the name of the kingdom ruled by the Joseon dynasty from 1393 until their declaration of the short - lived Great Korean Empire in 1897. King Taejo had named them for the earlier Kojoseon (고조선), who ruled northern Korea from its legendary prehistory until their conquest in 108 BC by China's Han Empire. This go is the Hanja 古 and simply means ``ancient ''or`` old''; it is a modern usage to distinguish the ancient Joseon from the later dynasty. Joseon itself is the modern Korean pronunciation of the Hanja 朝鮮 but it is unclear whether this was a transcription of a native Korean name (OC * T (r) awser, MC Trjewsjen) or a partial translation into Chinese of the Korean capital Asadal (아사달), whose meaning has been reconstructed as ``Morning Land ''or`` Mountain''.",
+        "doc_type": "golden",
+        "sub_answer": "Korea"
+      },
+      {
+        "think": "Now that I know the country is Korea, I need to find out why it was divided at the 38th parallel after WWII, as this will answer the main question.",
+        "sub_question": "why was Korea divided at the 38th parallel at the end of wwii",
+        "retrieval": [],
+        "doc": "At the Tehran Conference and the Yalta Conference, the Soviet Union promised to join its allies in the Pacific War in two to three months after victory in Europe. On August 8, 1945, three months to the day after the end of hostilities in Europe, and two days after the atomic bomb was dropped on Hiroshima, the Soviet Union declared war on Japan. Soviet troops advanced rapidly, and the US government became anxious that they would occupy the whole of Korea. On August 10, 1945 two young officers -- Dean Rusk and Charles Bonesteel -- were assigned to define an American occupation zone. Working on extremely short notice and completely unprepared, they used a National Geographic map to decide on the 38th parallel. They chose it because it divided the country approximately in half but would place the capital Seoul under American control. No experts on Korea were consulted. The two men were unaware that forty years before, Japan and pre-revolutionary Russia had discussed sharing Korea along the same parallel. Rusk later said that had he known, he ``almost surely ''would have chosen a different line. The division placed sixteen million Koreans in the American zone and nine million in the Soviet zone. To the surprise of the Americans, the Soviet Union immediately accepted the division. The agreement was incorporated into General Order No. 1 (approved on 17 August 1945) for the surrender of Japan.",
+        "doc_type": "golden",
+        "sub_answer": "it divided the country approximately in half"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 54
+    }
+  },
+  {
+    "id": "19521_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19521
+    ],
+    "main_question": "Where did the detective in The Second Confession live?",
+    "main_answer": "New York",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine where the detective in *The Second Confession* lived, I first need to identify the main detective character in the book.",
+        "sub_question": "The The Second Confession has what character?",
+        "retrieval": [],
+        "doc": "The Second Confession is a Nero Wolfe detective novel by Rex Stout, first published by the Viking Press in 1949. The story was also collected in other omnibus volumes, including \"Triple Zeck\" (Viking 1974). This is the second of three Nero Wolfe novels that involve crime boss Arnold Zeck – Wolfe's Moriarty. In this novel he telephones Wolfe to warn him off an investigation and retaliates when Wolfe refuses to cooperate. Though the crime is solved, the ending is left open.",
+        "doc_type": "golden",
+        "sub_answer": "Nero Wolfe"
+      },
+      {
+        "think": "Now that I know the detective is Nero Wolfe, I need to find out where he lived in the fictional world to answer the main question.",
+        "sub_question": "In what part of the world did the fictional detective, Nero Wolfe , live in?",
+        "retrieval": [],
+        "doc": "Rex Stout's fictional detective Nero Wolfe is described as fond of solving the London Times' crossword puzzle at his New York home, in preference to those of American papers.",
+        "doc_type": "golden",
+        "sub_answer": "New York"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 55
+    }
+  },
+  {
+    "id": "1380_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1380
+    ],
+    "main_question": "Who is the The Golden Stairs' painter's son?",
+    "main_answer": "Philip Burne-Jones",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find the painter's son of *The Golden Stairs*, I first need to identify who the painter of the artwork is.",
+        "sub_question": "Who is The Golden Stairs by?",
+        "retrieval": [],
+        "doc": "The Golden Stairs is one of the best-known paintings by the Pre-Raphaelite artist Edward Burne-Jones. It was begun in 1876 and exhibited at the Grosvenor Gallery in 1880.",
+        "doc_type": "golden",
+        "sub_answer": "Edward Burne-Jones"
+      },
+      {
+        "think": "Now that I know Edward Burne-Jones painted *The Golden Stairs*, I need to determine who his child is to answer the main question.",
+        "sub_question": "Who is the child of Edward Burne-Jones?",
+        "retrieval": [],
+        "doc": "Georgiana Burne-Jones, Lady Burne-Jones (Birmingham, 21 July 1840 – 2 February 1920), the second oldest of the Macdonald sisters, was the wife of Pre-Raphaelite Brotherhood artist Edward Burne-Jones, mother of painter Philip Burne-Jones, aunt of novelist Rudyard Kipling, confidante and friend of George Eliot, William Morris, and John Ruskin something of a painter and engraver in her own right. She was a Trustee of the South London Gallery and was elected to the parish Council of Rottingdean, near Brighton in Sussex.",
+        "doc_type": "golden",
+        "sub_answer": "Philip Burne-Jones"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 56
+    }
+  },
+  {
+    "id": "17539_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      17539
+    ],
+    "main_question": "When was the ferris wheel built in the city where the author of A Very Woman died?",
+    "main_answer": "March 2000",
+    "main_answer_aliases": [
+      "2000"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine when the ferris wheel was built in the city where the author of *A Very Woman* died, I first need to identify who the author of *A Very Woman* is.",
+        "sub_question": "Who is the author of A Very Woman?",
+        "retrieval": [],
+        "doc": "A Very Woman, or The Prince of Tarent is an early seventeenth-century stage play, a tragicomedy written by Philip Massinger and John Fletcher. It was first published in 1655, fifteen and thirty years after the deaths of its authors.",
+        "doc_type": "golden",
+        "sub_answer": "Philip Massinger"
+      },
+      {
+        "think": "Now that I know the author is Philip Massinger, I need to find out where he died to identify the city relevant to the main question.",
+        "sub_question": "Where did Philip Massinger die?",
+        "retrieval": [],
+        "doc": "John Waterson (died 10 February 1656) was a London publisher and bookseller of the Jacobean and Caroline eras; he published significant works in English Renaissance drama, including plays by William Shakespeare, John Fletcher, John Webster, and Philip Massinger.",
+        "doc_type": "golden",
+        "sub_answer": "London"
+      },
+      {
+        "think": "Since Philip Massinger died in London, I now need to find out when the ferris wheel in London was built to answer the main question.",
+        "sub_question": "when was the ferris wheel in London built",
+        "retrieval": [],
+        "doc": "London Eye London Eye Alternative names Millennium Wheel General information Status Complete Type Ferris wheel Location Lambeth, London Address Riverside Building, County Hall, Westminster Bridge Road Country United Kingdom Coordinates 51 ° 30 ′ 12 ''N 0 ° 07 ′ 10'' W ﻿ / ﻿ 51.5033 ° N 0.1194 ° W ﻿ / 51.5033; - 0.1194 Coordinates: 51 ° 30 ′ 12 ''N 0 ° 07 ′ 10'' W ﻿ / ﻿ 51.5033 ° N 0.1194 ° W ﻿ / 51.5033; - 0.1194 Completed March 2000 Opened 31 December 1999 (ceremonial, without passengers) 1 February 2000 (first passengers carried) 9 March 2000 (opened to general public) Cost £70 million Owner Merlin Entertainments Height 135 metres (443 ft) Diameter 120 metres (394 ft) Design and construction Architect Frank Anatole Nic Bailey Julia Barfield Steve Chilton Malcolm Cook David Marks Mark Sparrowhawk Architecture firm Marks Barfield Structural engineer Arup Other designers Babtie Allott & Lomax (checking engineer) Tony Gee (foundations) Awards and prizes Institution of Structural Engineers Special Award 2001 Website www.londoneye.com",
+        "doc_type": "golden",
+        "sub_answer": "March 2000"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 57
+    }
+  },
+  {
+    "id": "1871_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1871
+    ],
+    "main_question": "Who played for all of liverpool, manchester, united, everton, and the team where Herbert Burgess starred?",
+    "main_answer": "Peter Andrew Beardsley MBE",
+    "main_answer_aliases": [
+      "Peter Beardsley"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To find the player who played for all the mentioned teams, I first need to identify which team Herbert Burgess was associated with, as it's one of the key teams in the question.",
+        "sub_question": "Which sports team was Herbert Burgess a member of?",
+        "retrieval": [],
+        "doc": "Born in Openshaw, Manchester, Burgess began his football career with Glossop North End, but soon signed for Manchester City. He made his debut for City on 5 September 1903, playing at left back away to Stoke City on the opening day of the 1903–04 season. In 1906, in the wake of a scandal regarding players' wages, Manchester City were forced into selling most of their players, and Burgess was purchased by Manchester United along with Sandy Turnbull, Jimmy Bannister and Billy Meredith. After helping the club to the 1907–08 Football League title, Burgess left the club and moved to Denmark to play for Kristiania. He then emigrated to Hungary, where he played for MTK Budapest, before becoming their manager. In the 1920s, Burgess' managerial career took him to Italy, where he became the manager of Padova. He had a two-year spell at Milan before returning to Padova, but two years later he was on the move again, this time to Roma.",
+        "doc_type": "golden",
+        "sub_answer": "Manchester City"
+      },
+      {
+        "think": "Now that I know Herbert Burgess played for Manchester City, I need to find the only player who has played for Liverpool, Manchester United, Everton, and Manchester City to answer the main question.",
+        "sub_question": "only player to have played for liverpool manchester united everton and Manchester City",
+        "retrieval": [],
+        "doc": "Peter Andrew Beardsley MBE (born 18 January 1961) is an English former footballer who played as a forward or midfielder between 1979 and 1999. In 1987, he set a record transfer fee in the English game and represented his country 59 times between 1986 and 1996, once as captain, taking part in two FIFA World Cups (1986 and 1990) and UEFA Euro 1988. At club level, he played for Newcastle United, Liverpool and Everton, having also had spells with Carlisle United, Manchester United, Vancouver Whitecaps, Bolton Wanderers, Manchester City, Fulham, Hartlepool United and the Melbourne Knights. He was briefly appointed as the caretaker manager of Newcastle United in 2010.",
+        "doc_type": "golden",
+        "sub_answer": "Peter Andrew Beardsley MBE"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 58
+    }
+  },
+  {
+    "id": "6820_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      6820
+    ],
+    "main_question": "When was Greece accepted into the jurisdiction of the Anthem of Europe?",
+    "main_answer": "19 June 2000",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine when Greece was accepted into the jurisdiction of the Anthem of Europe, I first need to identify which jurisdiction the Anthem of Europe applies to.",
+        "sub_question": "Which jurisdiction does the Anthem of Europe apply to?",
+        "retrieval": [],
+        "doc": "\"Anthem of Europe\" is the anthem used by the Council of Europe to represent Europe as a whole and the European Union. It is based on \"Ode to Joy\" from the final movement of Beethoven's 9th Symphony composed in 1823, and is played on official occasions by both organisations.",
+        "doc_type": "golden",
+        "sub_answer": "European Union"
+      },
+      {
+        "think": "Now that I know the Anthem of Europe applies to the European Union, I need to find out when Greece was accepted into the European Union to answer the main question.",
+        "sub_question": "When was Greece accepted into European Union ?",
+        "retrieval": [],
+        "doc": "The Greek economy is classified as advanced and high-income. Greece was a founding member of the Organisation for Economic Co-operation and Development (OECD) and the Organization of the Black Sea Economic Cooperation (BSEC). In 1979 the accession of the country in the European Communities and the single market was signed, and the process was completed in 1982. Greece was accepted into the Economic and Monetary Union of the European Union on 19 June 2000, and in January 2001 adopted the Euro as its currency, replacing the Greek drachma at an exchange rate of 340.75 drachma to the Euro. Greece is also a member of the International Monetary Fund and the World Trade Organization, and is ranked 24th on the KOF Globalization Index for 2013.",
+        "doc_type": "golden",
+        "sub_answer": "19 June 2000"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 59
+    }
+  },
+  {
+    "id": "19658_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19658
+    ],
+    "main_question": "Parts of A Night at the Roxbury where filmed in the city with who as its current mayor?",
+    "main_answer": "Eric Garcetti",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the current mayor of the city where *A Night at the Roxbury* was filmed, I first need to identify the filming location of the movie.",
+        "sub_question": "where was a night at the roxbury filmed",
+        "retrieval": [],
+        "doc": "Wealthy Yemeni - American brothers Steve (Will Ferrell) and Doug Butabi (Chris Kattan) enjoy frequenting nightclubs, where they bob their heads in unison to Eurodance, a subgenre of dance music, and fail miserably at picking up women. Their goal is to party at the Roxbury, a fabled Los Angeles nightclub where they are continually denied entry by a hulking bouncer.",
+        "doc_type": "golden",
+        "sub_answer": "Los Angeles"
+      },
+      {
+        "think": "Now that I know the movie was filmed in Los Angeles, I can find out who the current mayor of that city is to answer the main question.",
+        "sub_question": "who is the current mayor of Los Angeles",
+        "retrieval": [],
+        "doc": "The Mayor of the City of Los Angeles is the official head and chief executive officer of Los Angeles, California. The mayor is elected for a four - year term and limited to serving no more than two terms. Under the California Constitution, all judicial, school, county, and city offices, including those of chartered cities, are nonpartisan. The 42nd and current Mayor is Eric Garcetti.",
+        "doc_type": "golden",
+        "sub_answer": "Eric Garcetti"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 60
+    }
+  },
+  {
+    "id": "19634_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19634
+    ],
+    "main_question": "What was the station that aired the Today show, named after the country where Anne of Denmark went after her marriage to James VI?",
+    "main_answer": "Scottish Television",
+    "main_answer_aliases": [
+      "STV"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To find the station named after the country Anne of Denmark went to after her marriage, I first need to identify the country where she relocated.",
+        "sub_question": "Where did Anne go after she got married?",
+        "retrieval": [],
+        "doc": "Throughout his youth, James was praised for his chastity, since he showed little interest in women. After the loss of Lennox, he continued to prefer male company. A suitable marriage, however, was necessary to reinforce his monarchy, and the choice fell on fourteen-year-old Anne of Denmark, younger daughter of Protestant Frederick II. Shortly after a proxy marriage in Copenhagen in August 1589, Anne sailed for Scotland but was forced by storms to the coast of Norway. On hearing that the crossing had been abandoned, James sailed from Leith with a 300-strong retinue to fetch Anne personally in what historian David Harris Willson called \"the one romantic episode of his life\". The couple were married formally at the Bishop's Palace in Oslo on 23 November and returned to Scotland on 1 May 1590, after stays at Elsinore and Copenhagen and a meeting with Tycho Brahe. By all accounts, James was at first infatuated with Anne and, in the early years of their marriage, seems always to have shown her patience and affection. The royal couple produced three children who survived to adulthood: Henry Frederick, Prince of Wales, who died of typhoid fever in 1612, aged 18; Elizabeth, later queen of Bohemia; and Charles, his successor. Anne died before her husband in March 1619.",
+        "doc_type": "golden",
+        "sub_answer": "Scotland"
+      },
+      {
+        "think": "Now that I know Anne went to Scotland, I can find the station that aired *Scotland Today*, as it is likely named after the country.",
+        "sub_question": "What was the station that aired Scotland Today?",
+        "retrieval": [],
+        "doc": "Scotland Today is a Scottish regional news programme covering Central Scotland, produced by STV Central (formerly Scottish Television). Despite its name suggesting a national remit, the programme was actually limited to stories around STV's Central Belt franchise. \"North Tonight\" covered STV's North Scotland region (from North Fife upwards), until both programmes were renamed as \"STV News at Six\" in March 2009.",
+        "doc_type": "golden",
+        "sub_answer": "Scottish Television"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 61
+    }
+  },
+  {
+    "id": "1471_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1471
+    ],
+    "main_question": "Who does the person who did the voice of Buzz Lightyear in Toy Story play on Last Man Standing?",
+    "main_answer": "Mike Baxter",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out who the voice actor of Buzz Lightyear is, as this is the first step in identifying the actor's role in 'Last Man Standing'.",
+        "sub_question": "who does the voice for buzz lightyear in toy story",
+        "retrieval": [],
+        "doc": "Tim Allen voiced the character in the Toy Story film series and the Buzz Lightyear movie, while Patrick Warburton provided Buzz's voice for the TV series, and Pat Fraley voiced him for the video games and the attractions in Disney Parks.",
+        "doc_type": "golden",
+        "sub_answer": "Tim Allen"
+      },
+      {
+        "think": "Now that we know Tim Allen voiced Buzz Lightyear, we need to determine which character he plays in 'Last Man Standing' to answer the main question.",
+        "sub_question": "who is Tim Allen dad on last man standing",
+        "retrieval": [],
+        "doc": "Tim Allen as Mike Baxter: Mike is a father of three daughters and the director of marketing for the Outdoor Man chain of sporting goods stores. He fervently supports traditional American values, is a Protestant, and is politically conservative. Mike loves his daughters but says his favorite is Eve, the youngest and most athletic daughter, and whose political opinions and interests mirror his own. He is proud of her ability to excel at anything she tries, including school work, hunting, and playing sports. Mike often finds himself annoyed with Outdoor Man's young slow - witted employee Kyle, and with Ryan, his politically liberal son - in - law and the father of Mike's grandson Boyd. The video blog or ``vlog ''that Mike does for Outdoor Man is frequently used as a vehicle to rant about his political views. Mike is a graduate of the University of Michigan, and an amateur radio operator using the call sign KA0XTT.",
+        "doc_type": "golden",
+        "sub_answer": "Mike Baxter"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 62
+    }
+  },
+  {
+    "id": "1542_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1542
+    ],
+    "main_question": "What body of water is located near the location of Lacy's final win?",
+    "main_answer": "Saimaa",
+    "main_answer_aliases": [
+      "Lake Saimaa"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To find the body of water near Lacy's final win, I first need to determine where the final win occurred.",
+        "sub_question": "Where was Lacy's final win?",
+        "retrieval": [],
+        "doc": "When the Russo-Swedish War broke out in 1741, the government of Anna Leopoldovna appointed him Commander-in-Chief as the most experienced among Russian generals. Lacy quickly struck against Finland and won his last brilliant victory at Lappeenranta (August 1741). Lacy's force, however, was poorly supplied and he was forced to withdraw to St Petersburg. The following year he rallied his forces and proceeded to capture Hamina, Porvoo and Hämeenlinna, by August encircling more than 17,000 Swedes near Helsinki and effectively bringing the hostilities to an end.",
+        "doc_type": "golden",
+        "sub_answer": "Lappeenranta"
+      },
+      {
+        "think": "Now that I know Lacy's final win was in Lappeenranta, I need to identify the body of water associated with this location to answer the main question.",
+        "sub_question": "What body of water is Lappeenranta located in or next to?",
+        "retrieval": [],
+        "doc": "Lappeenranta () is a city and municipality situated on the shore of the lake Saimaa in southeastern Finland, about from the Russian border. It belongs to the region of South Karelia. With approximately inhabitants () Lappeenranta is the largest city in Finland. The neighboring municipality of Joutseno was consolidated with Lappeenranta on January 1, 2009, and the neighboring municipality of Ylämaa on January 1, 2010. Lappeenranta is known as an international university city in Finland with Lappeenranta University of Technology and Saimaa University of Applied Sciences which together have approximately 13,000 students from 68 countries. Lappeenranta is also a commercial centre of South-East Finland and the meeting point of the EU and Russia, 215 km from both Helsinki and St. Petersburg. Location on the southern shore of Lake Saimaa makes the city the region's centre for tourism. Lappeenranta is the second most visited city by Russian tourists in Finland after Helsinki and it competes with Helsinki for the largest share of tax-free sales in Finland. Lappeenranta is a model for renewable energies and a clean living environment. Lappeenranta was the only Finnish city among the 14 finalists in the international Earth Hour City Challenge 2014, organized by WWF.",
+        "doc_type": "golden",
+        "sub_answer": "Saimaa"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 63
+    }
+  },
+  {
+    "id": "3067_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      3067
+    ],
+    "main_question": "Which county shares a border with the county where Dow city is located?",
+    "main_answer": "Allamakee County",
+    "main_answer_aliases": [
+      "Allamakee County, Iowa"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To find out which county shares a border with Dow city's county, I first need to identify the county where Dow city is located.",
+        "sub_question": "In which county is Dow city located?",
+        "retrieval": [],
+        "doc": "Dow City is a city in Crawford County, Iowa, United States, along the Boyer River. The population was 510 at the 2010 census.",
+        "doc_type": "golden",
+        "sub_answer": "Crawford County"
+      },
+      {
+        "think": "Now that I know Dow city is in Crawford County, I need to determine which neighboring counties share a border with Crawford County to answer the main question.",
+        "sub_question": "Which areas share a border with Crawford County?",
+        "retrieval": [],
+        "doc": "The Black Hawk Bridge spans the Mississippi River, joining the town of Lansing, in Allamakee County, Iowa, to rural Crawford County, Wisconsin. It is the northernmost Mississippi River bridge in Iowa.",
+        "doc_type": "golden",
+        "sub_answer": "Allamakee County"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 64
+    }
+  },
+  {
+    "id": "1512_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1512
+    ],
+    "main_question": "What nickname did the sole surviving son's policy earn him?",
+    "main_answer": "John Softsword",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the nickname associated with the sole surviving son's policy, I first need to identify who the sole surviving son was.",
+        "sub_question": "Who was the sole surviving son?",
+        "retrieval": [],
+        "doc": "After Richard's death on 6 April 1199 there were two potential claimants to the Angevin throne: John, whose claim rested on being the sole surviving son of Henry II, and young Arthur I of Brittany, who held a claim as the son of John's elder brother Geoffrey. Richard appears to have started to recognise John as his heir presumptive in the final years before his death, but the matter was not clear-cut and medieval law gave little guidance as to how the competing claims should be decided. With Norman law favouring John as the only surviving son of Henry II and Angevin law favouring Arthur as the only son of Henry's elder son, the matter rapidly became an open conflict. John was supported by the bulk of the English and Norman nobility and was crowned at Westminster, backed by his mother, Eleanor. Arthur was supported by the majority of the Breton, Maine and Anjou nobles and received the support of Philip II, who remained committed to breaking up the Angevin territories on the continent. With Arthur's army pressing up the Loire valley towards Angers and Philip's forces moving down the valley towards Tours, John's continental empire was in danger of being cut in two.",
+        "doc_type": "golden",
+        "sub_answer": "John"
+      },
+      {
+        "think": "Now that I know the sole surviving son is John, I need to find out what nickname his policy earned him.",
+        "sub_question": "What nickname did John 's policy earn him?",
+        "retrieval": [],
+        "doc": "After his coronation, John moved south into France with military forces and adopted a defensive posture along the eastern and southern Normandy borders. Both sides paused for desultory negotiations before the war recommenced; John's position was now stronger, thanks to confirmation that the counts Baldwin IX of Flanders and Renaud of Boulogne had renewed the anti-French alliances they had previously agreed to with Richard. The powerful Anjou nobleman William des Roches was persuaded to switch sides from Arthur to John; suddenly the balance seemed to be tipping away from Philip and Arthur in favour of John. Neither side was keen to continue the conflict, and following a papal truce the two leaders met in January 1200 to negotiate possible terms for peace. From John's perspective, what then followed represented an opportunity to stabilise control over his continental possessions and produce a lasting peace with Philip in Paris. John and Philip negotiated the May 1200 Treaty of Le Goulet; by this treaty, Philip recognised John as the rightful heir to Richard in respect to his French possessions, temporarily abandoning the wider claims of his client, Arthur.[nb 4] John, in turn, abandoned Richard's former policy of containing Philip through alliances with Flanders and Boulogne, and accepted Philip's right as the legitimate feudal overlord of John's lands in France. John's policy earned him the disrespectful title of \"John Softsword\" from some English chroniclers, who contrasted his behaviour with his more aggressive brother, Richard.",
+        "doc_type": "golden",
+        "sub_answer": "John Softsword"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 65
+    }
+  },
+  {
+    "id": "13859_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      13859
+    ],
+    "main_question": "What is the currency in the country God of Gamblers II is released?",
+    "main_answer": "Hong Kong dollar",
+    "main_answer_aliases": [
+      "HK$",
+      "$",
+      "HKD"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine the currency used in the country where *God of Gamblers II* was released, I first need to identify the country of release.",
+        "sub_question": "Which was the country for God of Gamblers II?",
+        "retrieval": [],
+        "doc": "God of Gamblers II () is a 1990 Hong Kong action comedy film written and directed by Wong Jing. It stars Andy Lau as Little Knife, Stephen Chow as the Saint of Gamblers, and Ng Man-Tat as Blackie Tat. This movie is a sequel to both \"God of Gamblers\", which included Lau's character, and to \"All for the Winner\", which starred Chow and Ng. This film should not be confused with \"God of Gamblers Returns\", also released as \"God of Gamblers 2\", and in essence the true sequel to the original \"God of Gamblers\".",
+        "doc_type": "golden",
+        "sub_answer": "Hong Kong"
+      },
+      {
+        "think": "Now that I know the movie was released in Hong Kong, I need to find out the official currency used there to answer the main question.",
+        "sub_question": "what is the currency in Hong Kong china",
+        "retrieval": [],
+        "doc": "The Hong Kong dollar (Chinese: 港幣; Cantonese Yale: Góng bàih; sign: HK $; code: HKD) is the official currency of Hong Kong. It is subdivided into 100 cents. The Hong Kong Monetary Authority is the governmental currency board and also the de facto central bank for Hong Kong and the Hong Kong dollar.",
+        "doc_type": "golden",
+        "sub_answer": "Hong Kong dollar"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 66
+    }
+  },
+  {
+    "id": "1372_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      1372
+    ],
+    "main_question": "Who is a character in the book on which Zinda Laash is based?",
+    "main_answer": "Renfield",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find a character in the book that inspired *Zinda Laash*, I first need to identify the original book that the film is based on.",
+        "sub_question": "Which is the basis of Zinda Laash?",
+        "retrieval": [],
+        "doc": "\"Zinda Laash\" is also known as Dracula in Pakistan (USA title) and The Living Corpse (International title). It is the first movie in Pakistan to be X-rated.",
+        "doc_type": "golden",
+        "sub_answer": "Dracula"
+      },
+      {
+        "think": "Now that I know *Dracula* is the basis, I need to recall one of its characters to answer the main question.",
+        "sub_question": "The Dracula has what character?",
+        "retrieval": [],
+        "doc": "Harker's fiancée, Mina Murray, is staying with her friend Lucy Westenra, who is holidaying in Whitby. Lucy receives three marriage proposals from Dr. John Seward, Quincey Morris, and Arthur Holmwood (the son of Lord Godalming who later obtains the title himself). Lucy accepts Holmwood's proposal while turning down Seward and Morris, but all remain friends. Dracula communicates with Seward's patient, Renfield, an insane man who wishes to consume insects, spiders, birds, and rats to absorb their \"life force\". Renfield is able to detect Dracula's presence and supplies clues accordingly.",
+        "doc_type": "golden",
+        "sub_answer": "Renfield"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 67
+    }
+  },
+  {
+    "id": "5195_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      5195
+    ],
+    "main_question": "Who is the child of the performer of Strangelhold?",
+    "main_answer": "James McCartney",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To find out who the child of the performer of *Stranglehold* is, I first need to identify who the performer of the song is.",
+        "sub_question": "Who performed in Stranglehold?",
+        "retrieval": [],
+        "doc": "\"Stranglehold\" is a song by Paul McCartney, the former bass guitarist, singer and songwriter with The Beatles. The track is credited as being written by McCartney and 10cc guitarist Eric Stewart, and is on his sixth studio solo album \"Press to Play\". It was issued as single exclusively in the US and reached number 81. The b-side featured the remix of \"Angry\" by Larry Alexander taken from the previous single \"Pretty Little Head\".",
+        "doc_type": "golden",
+        "sub_answer": "Paul McCartney"
+      },
+      {
+        "think": "Now that I know Paul McCartney is the performer, I need to determine who his children are to answer the main question.",
+        "sub_question": "Who are Paul McCartney's children?",
+        "retrieval": [],
+        "doc": "Close At Hand is the second EP by James McCartney, son of Paul and Linda McCartney. The EP was produced by David Kahne and Paul McCartney, and released on .",
+        "doc_type": "golden",
+        "sub_answer": "James McCartney"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 68
+    }
+  },
+  {
+    "id": "19248_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19248
+    ],
+    "main_question": "How many fungi species are known where Khentetka lived?",
+    "main_answer": "627",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the number of fungi species known where Khentetka lived, I first need to identify the country associated with Khentetka.",
+        "sub_question": "Of which country is Khentetka a citizen?",
+        "retrieval": [],
+        "doc": "Khentetka or Khentetenka (fl. 26th century BCE) was a Queen of Egypt; the wife of King Djedefre during the 4th dynasty.",
+        "doc_type": "golden",
+        "sub_answer": "Egypt"
+      },
+      {
+        "think": "Now that I know Khentetka is from Egypt, I can find out how many fungi species have been recorded there to answer the main question.",
+        "sub_question": "How many species of fungi were recorded in Egypt ?",
+        "retrieval": [],
+        "doc": "The plan stated that the following numbers of species of different groups had been recorded from Egypt: algae (1483 species), animals (about 15,000 species of which more than 10,000 were insects), fungi (more than 627 species), monera (319 species), plants (2426 species), protozoans (371 species). For some major groups, for example lichen-forming fungi and nematode worms, the number was not known. Apart from small and well-studied groups like amphibians, birds, fish, mammals and reptiles, the many of those numbers are likely to increase as further species are recorded from Egypt. For the fungi, including lichen-forming species, for example, subsequent work has shown that over 2200 species have been recorded from Egypt, and the final figure of all fungi actually occurring in the country is expected to be much higher.",
+        "doc_type": "golden",
+        "sub_answer": "627"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 69
+    }
+  },
+  {
+    "id": "19713_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      19713
+    ],
+    "main_question": "Where did the so-called Waterloo occur for the country that created an integrated system for ADGB?",
+    "main_answer": "Suez",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the location of the 'Waterloo' event for the country in question, I first need to identify which country created the integrated system for ADGB.",
+        "sub_question": "What country created an integrated system for ADGB?",
+        "retrieval": [],
+        "doc": "Initially sensors were optical and acoustic devices developed during the First World War and continued into the 1930s, but were quickly superseded by radar, which in turn was supplemented by optronics in the 1980s. Command and control remained primitive until the late 1930s, when Britain created an integrated system for ADGB that linked the ground-based air defence of the army's AA Command, although field-deployed air defence relied on less sophisticated arrangements. NATO later called these arrangements an \"air defence ground environment\", defined as \"the network of ground radar sites and command and control centres within a specific theatre of operations which are used for the tactical control of air defence operations\".",
+        "doc_type": "golden",
+        "sub_answer": "Britain"
+      },
+      {
+        "think": "Now that I know the country is Britain, I need to find out where its 'Waterloo' event occurred, as this will answer the main question.",
+        "sub_question": "Where did 'Britain 's Waterloo' occur?",
+        "retrieval": [],
+        "doc": "The Suez Crisis very publicly exposed Britain's limitations to the world and confirmed Britain's decline on the world stage, demonstrating that henceforth it could no longer act without at least the acquiescence, if not the full support, of the United States. The events at Suez wounded British national pride, leading one MP to describe it as \"Britain's Waterloo\" and another to suggest that the country had become an \"American satellite\". Margaret Thatcher later described the mindset she believed had befallen the British political establishment as \"Suez syndrome\", from which Britain did not recover until the successful recapture of the Falkland Islands from Argentina in 1982.",
+        "doc_type": "golden",
+        "sub_answer": "Suez"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 70
+    }
+  },
+  {
+    "id": "17233_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      17233
+    ],
+    "main_question": "Who founded what state American Idol contestant who was the most successful artist from this season a t state university?",
+    "main_answer": "North Carolina General Assembly",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To identify the founder of the state university related to the most successful American Idol contestant, I first need to determine who the most successful artist from that season was.",
+        "sub_question": "Who was the most successful artist from this season?",
+        "retrieval": [],
+        "doc": "Despite being eliminated earlier in the season, Chris Daughtry (as lead of the band Daughtry) became the most successful recording artist from this season. Other contestants, such as Hicks, McPhee, Bucky Covington, Mandisa, Kellie Pickler, and Elliott Yamin have had varying levels of success.",
+        "doc_type": "golden",
+        "sub_answer": "Chris Daughtry"
+      },
+      {
+        "think": "Now that I know the most successful artist is Chris Daughtry, I need to find out which state he is from to narrow down the university's location.",
+        "sub_question": "What state is American Idol contestant Chris Daughtry from?",
+        "retrieval": [],
+        "doc": "Since the show's inception in 2002, ten of the fourteen Idol winners, including its first five, have come from the Southern United States. A large number of other notable finalists during the series' run have also hailed from the American South, including Clay Aiken, Kellie Pickler, and Chris Daughtry, who are all from North Carolina. In 2012, an analysis of the 131 contestants who have appeared in the finals of all seasons of the show up to that point found that 48% have some connection to the Southern United States.",
+        "doc_type": "golden",
+        "sub_answer": "North Carolina"
+      },
+      {
+        "think": "With the state identified as North Carolina, the next step is to find out who founded the state university in North Carolina to answer the main question.",
+        "sub_question": "who founded North Carolina a t state university",
+        "retrieval": [],
+        "doc": "North Carolina State University was founded by the North Carolina General Assembly in 1887 as a land - grant college under the name North Carolina College of Agriculture and Mechanic Arts. As a land - grant college, NC State would provide a ``liberal and practical education ''while focusing on military tactics, agriculture and the mechanical arts without excluding classical studies. Since its founding, the university has maintained these objectives while building on them.",
+        "doc_type": "golden",
+        "sub_answer": "North Carolina General Assembly"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 71
+    }
+  },
+  {
+    "id": "2941_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      2941
+    ],
+    "main_question": "Who played Floyd the barber in the show of the person who plays the old man in Waiting on a Woman?",
+    "main_answer": "Howard Terbell McNear",
+    "main_answer_aliases": [
+      "Howard McNear"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To determine who played Floyd the barber, I first need to identify the actor who played the old man in *Waiting on a Woman*, as the question links the two roles.",
+        "sub_question": "who is the old man in waiting on a woman",
+        "retrieval": [],
+        "doc": "Paisley has referred to ``Waitin 'on a Woman ''as`` one of the most important songs'' that he's ever recorded. Because of the importance that he places on the song, Paisley asked Andy Griffith to star in the music video, as he felt that Griffith's personality matched the personality of the older man in the song. Griffith speaks the old man's lines in the video as well. Jim Shea and Peter Tilden directed the video.",
+        "doc_type": "golden",
+        "sub_answer": "Andy Griffith"
+      },
+      {
+        "think": "Now that I know Andy Griffith played the old man, I can find out who portrayed Floyd the barber in *The Andy Griffith Show*, since the question connects these two facts.",
+        "sub_question": "who played floyd the barber in the Andy Griffith show",
+        "retrieval": [],
+        "doc": "Howard Terbell McNear (January 27, 1905 -- January 3, 1969) was an American stage, screen, and radio character actor. McNear is best remembered as Floyd Lawson, the barber in The Andy Griffith Show (1960 - 1968).",
+        "doc_type": "golden",
+        "sub_answer": "Howard Terbell McNear"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 72
+    }
+  },
+  {
+    "id": "12381_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      12381
+    ],
+    "main_question": "Have the people in the nation Myra is from held feelings toward the cloth symbol of the Greeks?",
+    "main_answer": "ethnic tensions with the Turkish Cypriot minority",
+    "main_answer_aliases": [],
+    "chain_of_thought": [
+      {
+        "think": "To determine the feelings of the people in Myra's nation toward the Greek cloth symbol, I first need to identify the nation where Myra is from.",
+        "sub_question": "In what nation is Myra?",
+        "retrieval": [],
+        "doc": "Red is the color most commonly associated with joy and well being. It is the color of celebration and ceremony. A red carpet is often used to welcome distinguished guests. Red is also the traditional color of seats in opera houses and theaters. Scarlet academic gowns are worn by new Doctors of Philosophy at degree ceremonies at Oxford University and other schools. In China, it is considered the color of good fortune and prosperity, and it is the color traditionally worn by brides. In Christian countries, it is the color traditionally worn at Christmas by Santa Claus, because in the 4th century the historic Saint Nicholas was the Greek Christian Bishop of Myra, in modern-day Turkey, and bishops then dressed in red.",
+        "doc_type": "golden",
+        "sub_answer": "Turkey"
+      },
+      {
+        "think": "Now that I know Myra is from Turkey, I need to explore whether the Turkish people have any historical or cultural feelings toward the Greek cloth symbol, which might be related to ethnic tensions.",
+        "sub_question": "Have the people of Turkey held any feeling towards the cloth symbol of the Greeks ?",
+        "retrieval": [],
+        "doc": "The most widely used symbol is the flag of Greece, which features nine equal horizontal stripes of blue alternating with white representing the nine syllables of the Greek national motto Eleftheria i thanatos (freedom or death), which was the motto of the Greek War of Independence. The blue square in the upper hoist-side corner bears a white cross, which represents Greek Orthodoxy. The Greek flag is widely used by the Greek Cypriots, although Cyprus has officially adopted a neutral flag to ease ethnic tensions with the Turkish Cypriot minority – see flag of Cyprus).",
+        "doc_type": "golden",
+        "sub_answer": "ethnic tensions with the Turkish Cypriot minority"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 73
+    }
+  },
+  {
+    "id": "563_MusiQue_train",
+    "data_source": [
+      "MusiQue",
+      "train",
+      563
+    ],
+    "main_question": "Who is the programming language that has the WHERE clause partially named after?",
+    "main_answer": "Michael Widenius's daughter",
+    "main_answer_aliases": [
+      "Michael Widenius"
+    ],
+    "chain_of_thought": [
+      {
+        "think": "To identify who the WHERE clause is partially named after, I first need to determine which programming language uses the WHERE clause.",
+        "sub_question": "What is WHERE part of?",
+        "retrieval": [],
+        "doc": "A codice_1 clause in SQL specifies that a SQL Data Manipulation Language (DML) statement should only affect rows that meet specified criteria. The criteria are expressed in the form of predicates. codice_1 clauses are not mandatory clauses of SQL DML statements, but can be used to limit the number of rows affected by a SQL DML statement or returned by a query. In brief SQL WHERE clause is used to extract only those results from a SQL statement, such as: SELECT, INSERT, UPDATE, or DELETE statement.",
+        "doc_type": "golden",
+        "sub_answer": "SQL"
+      },
+      {
+        "think": "Now that I know SQL uses the WHERE clause, I need to find out whose name is associated with SQL to answer the main question.",
+        "sub_question": "SQL has the name of who?",
+        "retrieval": [],
+        "doc": "MySQL ( \"My S-Q-L\") is an open-source relational database management system (RDBMS).  Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter, and \"SQL\", the abbreviation for Structured Query Language.",
+        "doc_type": "golden",
+        "sub_answer": "Michael Widenius's daughter"
+      }
+    ],
+    "extra_info": {
+      "subset_split": "test_MusiQue",
+      "sub_set_index": 74
+    }
+  }
+]
