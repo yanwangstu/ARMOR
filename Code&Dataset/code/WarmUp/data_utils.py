@@ -15,7 +15,7 @@ class MultiHopDataset(Dataset):
                  tokenizer, 
                  data_path, 
                  system_prompt, 
-                 paddind_truncation_length=None, 
+                 padding_truncation_length=None, 
                  add_special_tokens=True):
         """
         tokenizer: HF tokenizer
@@ -24,7 +24,7 @@ class MultiHopDataset(Dataset):
         system_prompt: system 提示内容
         """
         self.tokenizer = tokenizer
-        self.paddind_truncation_length = paddind_truncation_length
+        self.padding_truncation_length = padding_truncation_length
         
         self.system_prompt = system_prompt
 
@@ -110,15 +110,15 @@ class MultiHopDataset(Dataset):
         # 创建 labels(是否反向传播 & 反向传播使用的 token id)：input 部分为 self.ignore_index，output 部分非 doc 部分保留真实 id
         sequence_labels = [self.ignore_index] * len(input_encode["input_ids"]) + output_labels
 
-        if self.paddind_truncation_length != None:
-            # 将 sequence_ids, attention_mask, sequence_labels 截断或填充到 paddind_truncation_length
+        if self.padding_truncation_length != None:
+            # 将 sequence_ids, attention_mask, sequence_labels 截断或填充到 padding_truncation_length
             sequence_len = len(sequence_ids)
-            if sequence_len > self.paddind_truncation_length:
-                sequence_ids = sequence_ids[:self.paddind_truncation_length]
-                attention_mask = attention_mask[:self.paddind_truncation_length]
-                sequence_labels = sequence_labels[:self.paddind_truncation_length]
+            if sequence_len > self.padding_truncation_length:
+                sequence_ids = sequence_ids[:self.padding_truncation_length]
+                attention_mask = attention_mask[:self.padding_truncation_length]
+                sequence_labels = sequence_labels[:self.padding_truncation_length]
             else:
-                pad_len = self.paddind_truncation_length - sequence_len
+                pad_len = self.padding_truncation_length - sequence_len
                 sequence_ids = sequence_ids + [self.tokenizer.pad_token_id] * pad_len
                 attention_mask = attention_mask + [0] * pad_len
                 sequence_labels = sequence_labels + [self.ignore_index] * pad_len

@@ -430,34 +430,3 @@ class trained_model_inference:
                     "doc_history": doc_history
                 }
             
-
-# usage example
-if __name__ == "__main__":
-    from dotenv import load_dotenv
-    load_dotenv('/datanfs4/wangyan/RL-RAG/.env')
-    e5_model_path = os.getenv("E5_MODEL_PATH")
-
-    base_model_path = '/datanfs4/wangyan/model_cache/Llama/Llama-3.2-1B-Instruct'
-    lora_adapter_path = "/datanfs4/wangyan/RL-RAG/WarmUp/sft_cache/Llama3.2-1B-sft-lora-train-embedding-shot/final"
-    prompt_file_path = "/datanfs4/wangyan/RL-RAG/WarmUp/prompt.txt"
-    retriever_topk = 3
-
-    RAG_instance = trained_model_inference(base_model_path, lora_adapter_path, prompt_file_path, e5_model_path, retriever_topk)
-
-    # val_file_path = "/datanfs4/wangyan/RL-RAG/WarmUP/warmup_dataset_construction/warmup_dataset/val_warmup_Qwen2.5-1.5B.json"
-    test_file_path = "/datanfs4/wangyan/RL-RAG/DatasetConstruction/ReconstructedDataset/SplitInfo/test_MusiQue.json"
-    with open(test_file_path, "r") as file:
-        test_data = json.load(file)
-    
-    for item in test_data[13:14]:
-        main_question = item["main_question"]
-        origin_dataset = item["data_source"][0]
-        origin_sample_index = item["data_source"][2]
-        print(main_question)
-        print(origin_dataset)
-        print(origin_sample_index)
-
-        print("=== RAG Inference Result ===")
-        info = RAG_instance.inference_RAG(main_question, origin_dataset, origin_sample_index)
-        
-        print(info)

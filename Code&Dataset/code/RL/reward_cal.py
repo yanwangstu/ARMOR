@@ -236,7 +236,7 @@ def _question_answer_reward_calculate(
         if correct_answer == None:
             return None, None
     
-    score_prompt_file_path='/datanfs4/wangyan/RL-RAG/RL/prompt/score_prompt.txt'
+    score_prompt_file_path='prompt/score_prompt.txt'
     with open(score_prompt_file_path, 'r', encoding='utf-8') as f:
         system_prompt = f.read()
 
